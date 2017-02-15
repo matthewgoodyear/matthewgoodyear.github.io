@@ -1,37 +1,55 @@
+html {
+  background-color: #212121;
+}
+
 body {
-	margin: 0;
-	padding: 0;
-	font-family: 'Open Sans', sans-serif;
-	color: #272727;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #272727;
+  background-color: #fff;
 }
 
 header {
-	width: 100%;
-	padding: 0 0;
+  width: 100%;
+  padding: 0 0;
+  border-top: 4px solid #212121;
 }
 
 h1 {
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: bolder;
-	color: #EAEAEA;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #EAEAEA;
 }
 
 h2 {
-	text-align: center;
-	color: #272727;
-	font-weight: normal;
+  text-align: center;
+  color: #272727;
+  font-weight: normal;
 }
 
 p {
-	text-align: center;
-	color: #EAEAEA;
+  text-align: center;
+  color: #EAEAEA;
 }
 
 .wrapper {
-	max-width: 1080px;
-    padding: 0 40px;
-	margin: 80px auto;
+  max-width: 1080px;
+  padding: 0 40px;
+  margin: 80px auto 0 auto;
+}
+
+footer {
+  background-color: #212121;
+  height: 60px;
+  margin-top: 60px;
+}
+
+footer p {
+  line-height: 60px;
+  font-size: 10px;
+  color: #eaeaea;
 }
 
 /* Logo Image
