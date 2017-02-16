@@ -55,11 +55,6 @@ footer p {
   display: inline;
 }
 
-i {
-  color: white;
-  text-align: right;
-}
-
 .fa {
   display: inline-block;
   float: right;
@@ -146,6 +141,23 @@ i {
     .media-overlay-content p {
         padding-bottom: 25px;
     }
+
+.insta-button {
+  background-color: rgba(255, 81, 72, 0.9);
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  text-decoration: none;
+}
+
+.insta-button:hover {
+  background-color: rgba(255, 81, 72, 0.8);
+}
+
+.insta-button p {
+  padding: 10px 20px;
+
+}
 
 @media screen and (max-width: 430px) {
     .name {
