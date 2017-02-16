@@ -87,6 +87,8 @@ footer p {
   margin-top: 100px;
   padding-bottom: 60px;
   padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 hr {
@@ -204,5 +206,9 @@ hr {
 @media screen and (max-width: 430px) {
     .name {
         display: none;
+    }
+
+    .fa {
+      font-size: 40px;
     }
 }
