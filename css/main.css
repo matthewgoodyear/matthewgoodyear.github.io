@@ -182,3 +182,9 @@ footer i {
         display: none;
     }
 }
+
+@media screen and (max-width: 680px) {
+    .left-col {
+      display: none;
+    }
+}
