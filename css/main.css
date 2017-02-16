@@ -19,8 +19,9 @@ header {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  font-weight: bolder;
-  color: #EAEAEA;
+  font-weight: normal;
+  color: #212121;
+  font-size: 15px;
 }
 
 h2 {
@@ -42,7 +43,6 @@ p {
 
 footer {
   background-color: #212121;
-  margin-top: 60px;
   padding: 30px 0;
 }
 
@@ -63,20 +63,39 @@ footer p {
   padding-bottom: 15px;
 }
 
-.left-col {
-  border-right: 2px solid #000;
-}
-
 .fa {
   display: inline-block;
   margin-right: 0;
-  padding: 26px 15px;
+  padding: 0 15px;
 }
-
-footer i {
+.icons {
   color: black;
   display: inline-block;
-  padding:
+  text-decoration: none;
+}
+.icons:hover {
+  color: rgba(255, 81, 72, 0.9);
+}
+
+.about {
+  background-color: #f9f9f9;
+  margin-top: 100px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.about hr {
+  width: 30px;
+  color: #212121;
+  border: none;
+  border-bottom: 2px solid;
+  margin-bottom: 30px;
+}
+
+.about p {
+  color: #212121;
+  font-size: 12px;
+  margin-bottom: 40px;
 }
 
 /* Logo Image
@@ -180,11 +199,5 @@ footer i {
 @media screen and (max-width: 430px) {
     .name {
         display: none;
-    }
-}
-
-@media screen and (max-width: 680px) {
-    .left-col {
-      display: none;
     }
 }
