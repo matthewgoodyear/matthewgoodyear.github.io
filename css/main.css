@@ -53,6 +53,10 @@ footer img {
   padding-top: 15px;
 }
 
+footer .row {
+  margin-right: 0;
+}
+
 footer p {
   text-align: center;
   font-size: 10px;
