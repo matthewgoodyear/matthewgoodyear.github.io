@@ -90,6 +90,10 @@ footer p {
   color: black;
 }
 
+.about a:active {
+  color: black;
+}
+
 .about {
   background-color: #f9f9f9;
   margin-top: 100px;
