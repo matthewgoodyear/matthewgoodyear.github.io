@@ -86,6 +86,14 @@ footer p {
   color: rgba(255, 81, 72, 0.9);
 }
 
+.about a:visited {
+  color: black;
+}
+
+.about a:active {
+  color: black;
+}
+
 .about {
   background-color: #f9f9f9;
   margin-top: 100px;
