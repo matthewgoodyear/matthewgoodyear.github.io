@@ -78,10 +78,6 @@ footer p {
   display: inline-block;
 }
 
-a:visited {
-  color: black;
-}
-
 .about a:hover {
   color: rgba(255, 81, 72, 0.9);
 }
