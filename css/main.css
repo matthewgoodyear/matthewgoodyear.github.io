@@ -110,6 +110,14 @@ hr {
   margin-bottom: 40px;
 }
 
+.project-desc {
+  color: #212121;
+  font-size: 12px;
+  margin: auto;
+  margin-bottom: 80px;
+  max-width: 500px;
+}
+
 /* Logo Image
 ----------------------------*/
 .logo-img { /* Logo */
@@ -157,7 +165,7 @@ hr {
        -moz-transform-style: preserve-3d;
             transform-style: preserve-3d;
     display: block;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
     .media-img {
         max-width: 100%;
