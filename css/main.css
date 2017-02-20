@@ -67,6 +67,14 @@ footer p {
     padding-bottom: 15px;
 }
 
+.social-link {
+    color: black;
+}
+
+.social-link:hover {
+    color: rgba(255, 81, 72, 0.9);
+}
+
 .fa {
     display: inline-block;
     margin-right: 0;
