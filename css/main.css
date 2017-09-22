@@ -47,7 +47,7 @@ footer {
 }
 
 footer img {
-    width: 50px;
+    width: 30px;
     display: block;
     margin: auto;
     padding-top: 15px;
@@ -60,7 +60,7 @@ footer .row {
 footer p {
     text-align: center;
     font-size: 10px;
-    color: black;
+    color: #000;
     margin-top: 20px;
     text-transform: uppercase;
     margin-bottom: 0;
@@ -139,7 +139,8 @@ hr {
 }
 
 .logo-img {
-    height: 80px;
+    padding-top: 40px;
+    height: 40px;
     display: block;
 }
 
