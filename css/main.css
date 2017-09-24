@@ -80,12 +80,33 @@ footer p {
     padding-bottom: 15px;
 }
 
+.contact-btn {
+    margin-top: 80px;
+    height: auto;
+    text-decoration: none;
+}
+
+.contact-btn p {
+    font-family: 'Panton', 'Open Sans', serif;
+    display: block;
+    text-transform: uppercase;
+    border: 2px solid rgba(0, 174, 129, 1);
+    padding: 20px 0;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+}
+
+.contact-btn p:hover {
+    border-color: rgba(0, 174, 129, 0.5);
+    color: rgba(0, 0, 0, 0.5)
+}
+
 .social-link {
     color: black;
 }
 
 .social-link:hover {
-    color: rgba(255, 81, 72, 0.9);
+    color: #d6c152;
 }
 
 .fa {
@@ -100,7 +121,7 @@ footer p {
 }
 
 .about a:hover {
-    color: rgba(255, 81, 72, 0.9);
+    color: #d6c152;
 }
 
 .icons {
