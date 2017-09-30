@@ -22,6 +22,62 @@ body {
     background-color: #fff;
 }
 
+.sticky-header {
+    width: 100%;
+    background-color: #212121;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    transition: all 750ms ease-in-out;
+}
+    .sticky-hide {
+        margin-top: -500px;
+    }
+    .sticky-show {
+        margin-top: 0px;
+    }
+
+.sticky-container {
+    max-width: 980px;
+    padding: 0 40px;
+    margin: auto;
+}
+
+.sticky-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sticky-logo img {
+    height: 28px;
+    padding: 22px 0;
+    display: inline-block;
+    float: left;
+}
+
+.sticky-contact-btn {
+    text-decoration: none;
+    float: right;
+    margin-top: 16px;
+}
+
+.sticky-contact-btn p {
+    font-family: 'Panton', 'Open Sans', serif;
+    font-size: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    border: 1px solid rgba(0, 174, 129, 0.8);
+    padding: 10px 20px;
+    color: rgba(242, 242, 242, 0.8);
+    margin: 0;
+}
+
+.sticky-contact-btn p:hover {
+    border-color: rgba(0, 174, 129, 1);
+    color: rgba(242, 242, 242, 0.9)
+}
+
 header {
     width: 100%;
     padding: 0 0;
@@ -236,5 +292,12 @@ hr {
 
     .fa {
       font-size: 40px;
+    }
+}
+
+@media only screen and (max-width : 678px) {
+    .sticky-header {
+        display: none;
+        visibility: hidden;
     }
 }
