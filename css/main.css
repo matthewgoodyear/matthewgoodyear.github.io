@@ -201,6 +201,10 @@ hr {
     border-bottom: 2px solid;
     margin-bottom: 30px;
 }
+    .divider {
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
 
 .about p {
     color: #212121;
@@ -259,7 +263,7 @@ hr {
         z-index: 2;
         text-align: center;
         color: #fff;
-        background: rgba(0, 0, 0, 0.7);
+        background: rgba(33, 33, 33, 0.99);
         opacity: 0;
         -webkit-transition: opacity .15s ease-in-out;
            -moz-transition: opacity .15s ease-in-out;
