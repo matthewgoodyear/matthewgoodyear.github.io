@@ -279,25 +279,26 @@ hr {
         z-index: 2;
         text-align: center;
         color: #fff;
-        background: rgba(33, 33, 33, 1);
+        background: #f2f2f2;
         opacity: 0;
-        -webkit-transition: opacity .15s ease-in-out;
-           -moz-transition: opacity .15s ease-in-out;
-                transition: opacity .15s ease-in-out;
+        -webkit-transition: opacity .2s ease-in-out;
+           -moz-transition: opacity .2s ease-in-out;
+                transition: opacity .2s ease-in-out;
     }
     .media-overlay:hover {
         opacity: 1;
     }
     .media-overlay-content {
         position: relative;
-        top: 50%;
+        top: 47%;
         -webkit-transform: translateY(-50%);
            -moz-transform: translateY(-50%);
                 transform: translateY(-50%);
     }
     .media-overlay-content p {
-        padding-bottom: 12px;
+        color: #212121;
         font-family: 'Panton','Open Sans', sans-serif;
+        font-size: 18px;
     }
 
 .project-img {
