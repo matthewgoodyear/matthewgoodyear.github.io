@@ -1,11 +1,8 @@
 @font-face {
   font-family: 'Panton-Regular';
-  src: url('Panton-Regular.eot');
-  src: url('Panton-Regular.woff2') format('woff2'),
-       url('Panton-Regular.woff') format('woff'),
-       url('Panton-Regular.ttf') format('truetype'),
-       url('Panton-Regular.svg#Panton-Regular') format('svg'),
-       url('Panton-Regular.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/Panton-Regular.woff2') format('woff2'),
+       url('../fonts/Panton-Regular.woff') format('woff');
+
   font-weight: normal;
   font-style: normal;
 }
@@ -17,7 +14,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Panton-Regular', 'Open Sans', sans-serif;
     color: #272727;
     background-color: #fff;
 }
@@ -63,7 +60,7 @@ body {
 }
 
 .sticky-contact-btn p {
-    font-family: 'Panton', 'Open Sans', serif;
+    font-family: 'Panton-Regular', 'Open Sans', serif;
     font-size: 14px;
     display: inline-block;
     text-transform: uppercase;
@@ -81,11 +78,11 @@ body {
 header {
     width: 100%;
     padding: 0 0;
-    border-top: 4px solid #212121;
+    border-top: 3px solid #212121;
 }
 
 h1 {
-    font-family: 'Panton', 'Open Sans', sans-serif;
+    font-family: 'Panton-Regular', 'Open Sans', sans-serif;
     text-align: center;
     text-transform: uppercase;
     font-weight: normal;
@@ -111,7 +108,7 @@ p {
 }
 
 footer {
-    font-family: 'Panton', 'Open Sans', serif;
+    font-family: 'Panton-Regular', 'Open Sans', serif;
     max-width: 980px;
     margin: 80px auto 0 auto;
     padding: 0 40px 40px 40px;
@@ -139,7 +136,20 @@ footer p {
 }
     .links {
         text-align: left;
-        word-spacing: 20px;
+        list-style: none;
+        padding: 0;
+    }
+
+    .links li {
+        display: inline-block;
+        text-transform: uppercase;
+        padding: 0 19px 0 20px;
+        border-left: 1px solid #212121;
+    }
+
+    .links li:first-child {
+        border-left: 0;
+        padding-left: 0;
     }
 
     .links a {
@@ -159,7 +169,7 @@ footer p {
 }
 
 .contact-btn p {
-    font-family: 'Panton', 'Open Sans', serif;
+    font-family: 'Panton-Regular', 'Open Sans', serif;
     display: block;
     text-transform: uppercase;
     border: 2px solid rgba(0, 174, 129, 0.6);
@@ -214,7 +224,7 @@ hr {
     width: 30px;
     color: #212121;
     border: none;
-    border-bottom: 2px solid;
+    border-bottom: 1px solid;
     margin-bottom: 30px;
 }
     .divider {
@@ -240,6 +250,8 @@ hr {
 ----------------------------*/
 .logo-container {
     position: relative;
+    max-width: 980px;
+    margin: auto;
     margin-top: 40px;
     text-align: center;
     z-index: 2;
@@ -250,7 +262,7 @@ hr {
 }
 
 .logo-img {
-    height: 40px;
+    height: 35px;
     display: block;
 }
 
@@ -297,7 +309,7 @@ hr {
     }
     .media-overlay-content p {
         color: #212121;
-        font-family: 'Panton','Open Sans', sans-serif;
+        font-family: 'Panton-Regular','Open Sans', sans-serif;
         font-size: 18px;
     }
 
