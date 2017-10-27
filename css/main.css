@@ -35,7 +35,7 @@ body {
     }
 
 .sticky-container {
-    max-width: 980px;
+    max-width: 1280px;
     padding: 0 40px;
     margin: auto;
 }
@@ -102,15 +102,26 @@ p {
 }
 
 .wrapper {
+<<<<<<< HEAD
     /*max-width: 980px;*/
     padding: 20px 20px;
     margin: 0 auto;
+=======
+    max-width: 1280px;
+    padding: 0 40px;
+    margin: 80px auto 0 auto;
+>>>>>>> develop
 }
 
 footer {
     font-family: 'Panton-Regular', 'Open Sans', serif;
+<<<<<<< HEAD
     /*max-width: 980px;*/
     margin: 40px auto 0 auto;
+=======
+    max-width: 1280px;
+    margin: 80px auto 0 auto;
+>>>>>>> develop
     padding: 0 40px 40px 40px;
 }
 
@@ -291,7 +302,7 @@ hr {
         z-index: 2;
         text-align: center;
         color: #fff;
-        background: #f2f2f2;
+        background: #212121;
         opacity: 0;
         -webkit-transition: opacity .2s ease-in-out;
            -moz-transition: opacity .2s ease-in-out;
@@ -309,16 +320,27 @@ hr {
         opacity: 1;
     }
     .media-overlay-content {
-        position: relative;
-        top: 47%;
+        width: 50%;
+        /*position: relative;
         -webkit-transform: translateY(-50%);
            -moz-transform: translateY(-50%);
-                transform: translateY(-50%);
+                transform: translateY(-50%);*/
     }
-    .media-overlay-content p {
-        color: #212121;
+        .col-sm-6 .media-overlay-content {
+            width: 80%;
+        }
+    .media-title {
+        color: #fff;
         font-family: 'Panton-Regular','Open Sans', sans-serif;
+        font-size: 26px;
+        text-align: left;
+        padding-left: 30px;
+    }
+    .media-desc{
+        color: #f2f2f2;
         font-size: 18px;
+        text-align: left;
+        padding-left: 30px
     }
     .media-content-about p {
         color: #f2f2f2;
