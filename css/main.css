@@ -7,6 +7,15 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Panton-Bold';
+  src: url('../fonts/Panton-Bold.woff2') format('woff2'),
+       url('../fonts/Panton-Bold.woff') format('woff');
+
+  font-weight: bold;
+  font-style: normal;
+}
+
 html {
     background-color: #212121;
 }
@@ -19,7 +28,13 @@ body {
     background-color: #fff;
 }
 
-.sticky-header {
+.wrapper {
+    max-width: 1280px;
+    padding: 0 40px;
+    margin: auto;
+}
+
+/*.sticky-header {
     width: 100%;
     background-color: #212121;
     position: fixed;
@@ -73,38 +88,92 @@ body {
 .sticky-contact-btn p:hover {
     border-color: rgba(0, 174, 129, 1);
     color: rgba(242, 242, 242, 0.9)
-}
+}*/
 
 header {
     width: 100%;
-    padding: 0 0;
-    border-top: 3px solid #212121;
+    /*border-top: 3px solid #212121;*/
+    z-index: 100;
+    background-color: #fff;
+    position: fixed;
+    padding: 30px 0;
 }
+
+header .row {
+    max-width: 1280px;
+    margin: auto;
+    line-height: 30px;
+}
+
+header .row .col-sm-6, .col-xs-12 {
+    padding: 0;
+}
+
+header .links {
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+header .links li ul {
+    line-height: 30px;
+}
+
+.logo-container {
+    /*margin-top: 40px;*/
+    /*z-index: 2;
+    margin-top: 0;*/
+}
+
+.logo-link {
+    display: inline-block;
+}
+
+.logo-img {
+    height: 30px;
+    display: block;
+}
+
 
 h1 {
-    font-family: 'Panton-Regular', 'Open Sans', sans-serif;
-    text-align: center;
-    text-transform: uppercase;
+    font-family: 'Panton-Bold', 'Open Sans', sans-serif;
+    text-align: left;
+    /*text-transform: uppercase;*/
     font-weight: normal;
     color: #212121;
-    font-size: 16px;
+    font-size: 20px;
+    display: block;
+    margin-top: 80px;
 }
+
+body h1:first-child {
+    padding-top: 180px;
+    margin-top: 0;
+}
+
+hr {
+    width: 100%;
+    color: #212121;
+    border: none;
+    width: 30px;
+    border-bottom: 2px solid;
+    margin-bottom: 30px;
+}
+    .divider {
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
 
 h2 {
-    text-align: center;
-    color: #272727;
+    /*font-family: 'Open Sans';*/
+    color: #303030;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 80px;
+    max-width: 70%;
     font-weight: normal;
-}
-
-p {
-    text-align: center;
-    color: #EAEAEA;
-}
-
-.wrapper {
-    max-width: 1280px;
-    padding: 0 40px;
-    margin: 80px auto 0 auto;
 }
 
 footer {
@@ -144,7 +213,7 @@ footer p {
         display: inline-block;
         text-transform: uppercase;
         padding: 0 19px 0 20px;
-        border-left: 1px solid #212121;
+        border-left: 1px solid rgba(33,33,33,0.4);
     }
 
     .links li:first-child {
@@ -220,50 +289,10 @@ footer p {
 
 }
 
-hr {
-    width: 30px;
-    color: #212121;
-    border: none;
-    border-bottom: 1px solid;
-    margin-bottom: 30px;
-}
-    .divider {
-        margin-top: 80px;
-        margin-bottom: 30px;
-    }
-
 .about p {
     color: #212121;
     font-size: 12px;
     margin-bottom: 40px;
-}
-
-.project-desc {
-    color: #212121;
-    font-size: 12px;
-    margin: auto;
-    margin-bottom: 40px;
-    max-width: 500px;
-}
-
-/* Logo Image
-----------------------------*/
-.logo-container {
-    position: relative;
-    max-width: 980px;
-    margin: auto;
-    margin-top: 40px;
-    text-align: center;
-    z-index: 2;
-}
-
-.logo-link {
-    display: inline-block;
-}
-
-.logo-img {
-    height: 35px;
-    display: block;
 }
 
 /**
@@ -313,15 +342,32 @@ hr {
     .media-title {
         color: #fff;
         font-family: 'Panton-Regular','Open Sans', sans-serif;
-        font-size: 26px;
+        font-size: 28px;
         text-align: left;
         padding-left: 30px;
+        margin-bottom: 20px;
+        margin-top: 0;
+        padding-top: 30px;
     }
     .media-desc{
-        color: #f2f2f2;
-        font-size: 18px;
+        color: #aaa;
+        font-size: 22px;
         text-align: left;
-        padding-left: 30px
+        padding-left: 30px;
+        margin: 0;
+        padding-bottom: 30px;
+    }
+    .media-about {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: 2;
+        color: #212121;
+        background-color: #212121;
+    }
+    .media-about .media-title {
+
     }
 
 .project-img {
