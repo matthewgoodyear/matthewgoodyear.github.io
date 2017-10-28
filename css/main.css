@@ -83,6 +83,7 @@ header {
     font-size: 18px;
     line-height: 30px;
     text-transform: uppercase;
+    border-bottom: 1px solid #aaa;
 }
 
 .logo-link {
@@ -131,7 +132,7 @@ h2 {
     line-height: 30px;
     text-align: left;
     margin-bottom: 80px;
-    max-width: 70%;
+    max-width: 80%;
     font-weight: normal;
 }
     h2 a {
@@ -175,6 +176,10 @@ footer {
     .links li:first-child {
         border-left: 0;
         padding-left: 0;
+    }
+
+    .links li:last-child {
+        padding-right: 0;
     }
 
 /**
@@ -249,17 +254,31 @@ footer {
 }
 
 @media only screen and (max-width : 767px) {
-    .sticky-header {
+    .start-project {
         display: none;
         visibility: hidden;
     }
 
-    footer p, .links {
+    footer {
         text-align: center;
-        font-size: 10px;
     }
 
     .links {
-        font-size: 14px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .copyright {
+        display: none;
+        visibility: hidden;
+    }
+
+    h2 {
+        max-width: 100%;
+    }
+
+    .row {
+        margin-right: 0;
+        margin-left: 0;
     }
 }
