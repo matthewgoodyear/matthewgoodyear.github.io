@@ -1,3 +1,4 @@
 baseURL = "https://matthewgoodyear.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+relativeurls = true
