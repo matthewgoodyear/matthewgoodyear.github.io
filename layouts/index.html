@@ -1,0 +1,63 @@
+{{ partial "header.html" . }}
+    <h1 class="first-el">About</h1>
+    <hr align="left">
+    <h2>
+        I'm Matthew, I have a passion for design and creating brands. Based in the North East of England, I currently work for
+        <a href="https://www.betterbrandagency.com/" class="better-link">Better Brand Agency</a> and I'm available for freelance projects. Get in touch via
+        <a href="mailto:hello@matthewgoodyear.com">Email</a> and follow me on
+        <a href="https://www.instagram.com/designer.matt/">Instagram</a> to keep up to date with future projects.
+    </h2>
+
+    <h1>Projects</h1>
+    <hr align="left">
+
+    <div class="row">
+    {{ range $i, $e := (where .Data.Pages "Section" "project") }}
+        <div class="col-sm-6">
+            <a class="media" href="{{ .Permalink }}">
+                <img src="{{ .Params.image }}" alt="{{ .Title }}" class="media-img">
+                <div class="media-overlay">
+                    <div class="media-overlay-content">
+                        <p class="media-title">{{ .Title }}</p>
+                        <p class="media-desc">{{ .Params.description }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    {{ end }}
+    </div>
+
+    <h1>Misc.</h1>
+    <hr align="left">
+
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="/img/azmonogram.jpg" alt="work" class="media-img project-img">
+        </div>
+        <div class="col-sm-4">
+            <img src="/img/lumo.jpg" alt="work" class="media-img project-img">
+        </div>
+        <div class="col-sm-4">
+            <img src="/img/mg.jpg" alt="work" class="media-img project-img">
+        </div>
+        <div class="col-sm-4">
+            <img src="/img/mykri.jpg" alt="work" class="media-img project-img">
+        </div>
+        <div class="col-sm-4">
+            <img src="/img/tofy1.jpg" alt="work" class="media-img project-img">
+        </div>
+        <div class="col-sm-4">
+            <img src="/img/tofy2.jpg" alt="work" class="media-img project-img">
+        </div>
+        <div class="col-sm-4">
+            <img src="/img/chatdog.jpg" alt="work" class="media-img project-img">
+        </div>
+        <div class="col-sm-4">
+            <img src="/img/l.jpg" alt="work" class="media-img project-img">
+        </div>
+        <div class="col-sm-4">
+            <img src="/img/amped-icon.jpg" alt="work" class="media-img project-img">
+        </div>
+    </div>
+
+{{ partial "footer.html" . }}

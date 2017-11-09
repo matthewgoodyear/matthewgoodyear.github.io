@@ -1,0 +1,9 @@
+{{ partial "header.html" . }}
+
+<h1>{{ $.Param "title" }}</h1>
+<hr align="left">
+<h2>{{ $.Param "description" }}</h2>
+
+{{ .Content }}
+
+{{ partial "footer.html" . }}
