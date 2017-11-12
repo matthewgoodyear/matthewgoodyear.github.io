@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ with .Page.Params.Title }}{{ . }} | {{ end }}Goodyear | Branding & Identity</title>
+    {{ with .Page.Params.description }}
+    <meta name="description" content="{{ . }}">
+    {{ else }}
+    <meta name="description" content="Hi I'm Matthew, I'm a Graphic Designer based in Middlesbrough, UK.">
+    {{ end }}
+
+    <link rel="shortcut icon" href="{{ $.Site.BaseURL }}img/favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="{{ $.Site.BaseURL }}css/flexboxgrid.css">
+    <link rel="stylesheet" type="text/css" href="{{ $.Site.BaseURL }}css/main.css">
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-34767842-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <a class="logo-link" href="{{ $.Site.BaseURL }}">
+                        <img src="{{ $.Site.BaseURL }}img/MG_Logo_Dark@0.5x.png" alt="Logo" class="logo-img">
+                    </a>
+
+                    <p class="start-project">
+                        <a href="mailto:hello@matthewgoodyear.com?subject=New Project Idea&body=Hi, I'm looking to start a project,">Start a project</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="wrapper">
