@@ -1,22 +1,4 @@
 @font-face {
-  font-family: 'Panton';
-  src: url('../fonts/Panton-Regular.woff2') format('woff2'),
-       url('../fonts/Panton-Regular.woff') format('woff');
-
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Panton';
-  src: url('../fonts/Panton-Bold.woff2') format('woff2'),
-       url('../fonts/Panton-Bold.woff') format('woff');
-
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'FF-Din';
   src: url('../fonts/ff_din_regular.woff') format('woff');
 
