@@ -1,6 +1,6 @@
 ---
 title: "Wynd Interiors"
-description: "Project coming soon."
+description: "A fresh identity for a contemporary interior specialist."
 draft: false
 image: "/img/wynd/wynd_thumb.jpg"
 weight: 1
@@ -12,31 +12,38 @@ weight: 1
     </div>
 </div>
 
-<!--
-
 <div class="row">
     <div class="col-sm-12">
-        <img src="/img/vinyl/booklet1.jpg" alt="work" class="media-img project-img">
+        <img src="/img/wynd/wynd_type.jpg" alt="work" class="media-img project-img">
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm-12">
-        <img src="/img/vinyl/booklet2.jpg" alt="work" class="media-img project-img">
+        <img src="/img/wynd/wynd_mag1.jpg" alt="work" class="media-img project-img">
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm-12">
-        <img src="/img/vinyl/booklet3.jpg" alt="work" class="media-img project-img">
+        <img src="/img/wynd/wynd_mag2.jpg" alt="work" class="media-img project-img">
     </div>
 </div>
 
 <div class="row">
-    <div class="col-sm-6">
-        <img src="/img/vinyl/design2.png" alt="work" class="media-img project-img">
+    <div class="col-sm-12">
+        <img src="/img/wynd/wynd_mag3.jpg" alt="work" class="media-img project-img">
     </div>
-    <div class="col-sm-6">
-        <img src="/img/vinyl/design3.png" alt="work" class="media-img project-img">
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <img src="/img/wynd/wynd_web.jpg" alt="work" class="media-img project-img">
     </div>
-</div> -->
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <img src="/img/wynd/wynd_cards.jpg" alt="work" class="media-img project-img">
+    </div>
+</div>
