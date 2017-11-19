@@ -1,9 +1,14 @@
 {{ partial "header.html" . }}
 
-<h1>{{ $.Param "title" }}</h1>
-<hr align="left">
-<h2>{{ $.Param "description" }}</h2>
+{{ if isset .Params "banner" }}
+    <img src="{{ $.Param "banner" }}" class="project-banner"/>
+{{ end}}
 
-{{ .Content }}
+<div class="wrapper">
+    <h1>{{ $.Param "title" }}</h1>
+    <hr align="left">
+    <h2>{{ $.Param "description" }}</h2>
+    {{ .Content }}
+</div>
 
 {{ partial "footer.html" . }}
