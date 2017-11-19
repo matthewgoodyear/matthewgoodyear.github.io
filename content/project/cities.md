@@ -4,6 +4,7 @@ excerpt: "Inspired by Lucas Fields' City Badges, this growing series includes va
 description: "Inspired by Lucas Fields' City Badges, this growing series includes various cities from around the globe and recreates their most prominent landmark in a minimal form."
 draft: false
 image: "/img/cities/cities-thumb.jpg"
+banner: "/img/cities/cities_banner.jpg"
 weight: 2
 ---
 
@@ -30,12 +31,6 @@ weight: 2
 
 <div class="row">
     <div class="col-sm-12">
-        <img src="/img/cities/paris.jpg" alt="Paris" class="media-img project-img">
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm-12">
         <img src="/img/cities/newyork.jpg" alt="New York" class="media-img project-img">
     </div>
 </div>
@@ -55,6 +50,12 @@ weight: 2
 <div class="row">
     <div class="col-sm-12">
         <img src="/img/cities/kuala.jpg" alt="kuala" class="media-img project-img">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <img src="/img/cities/paris.jpg" alt="Paris" class="media-img project-img">
     </div>
 </div>
 

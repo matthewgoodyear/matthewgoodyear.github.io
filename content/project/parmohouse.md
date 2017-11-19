@@ -3,14 +3,9 @@ title: "The Parmo House"
 description: "An industiral style restaurant, specialising in a dish originating in Middlesbrough, England."
 draft: false
 image: "/img/parmohouse/ph_thumb.jpg"
+banner: "/img/parmohouse/ph_banner.jpg"
 weight: 3
 ---
-
-<div class="row">
-    <div class="col-sm-12">
-        <img src="/img/parmohouse/ph_banner.jpg" alt="Banner" class="media-img project-img">
-    </div>
-</div>
 
 <div class="row">
     <div class="col-sm-12">
