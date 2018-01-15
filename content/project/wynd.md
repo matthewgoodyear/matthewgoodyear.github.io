@@ -4,6 +4,7 @@ description: "A fresh identity for a contemporary furnishing specialist."
 draft: false
 image: "/img/wynd/wynd_thumb.jpg"
 banner: "/img/wynd/wynd_banner.jpg"
+banner-logo: "/img/wynd/wynd_banner_logo.png"
 weight: 1
 ---
 

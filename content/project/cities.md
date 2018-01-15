@@ -5,6 +5,8 @@ description: "Inspired by Lucas Fields' City Badges, this growing series include
 draft: false
 image: "/img/cities/cities-thumb.jpg"
 banner: "/img/cities/cities_banner.jpg"
+banner-logo: "/img/cities/london-icon.jpg"
+display: 'visibility: hidden'
 weight: 2
 ---
 
