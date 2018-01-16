@@ -279,6 +279,10 @@ footer {
         visibility: hidden;
     }
 
+    .project-banner {
+        margin-top: 68px;
+    }
+
     footer {
         text-align: center;
     }
