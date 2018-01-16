@@ -4,6 +4,7 @@ description: "An industiral style restaurant, specialising in a dish originating
 draft: false
 image: "/img/parmohouse/ph_thumb.jpg"
 banner: "/img/parmohouse/ph_banner.jpg"
+banner-logo: "/img/parmohouse/ph_banner_logo.png"
 weight: 3
 ---
 

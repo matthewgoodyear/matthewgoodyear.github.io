@@ -5,6 +5,8 @@ description: "Inspired by Lucas Fields' City Badges, this growing series include
 draft: false
 image: "/img/cities/cities-thumb.jpg"
 banner: "/img/cities/cities_banner.jpg"
+banner-logo: "/img/cities/london-icon.jpg"
+display: 'visibility: hidden'
 weight: 2
 ---
 
@@ -28,6 +30,8 @@ weight: 2
         <img src="/img/cities/kuala-icon.jpg" alt="Kuala" class="media-img project-img">
     </div>
 </div>
+
+<h3>Cities, Series 1.</h3>
 
 <div class="row">
     <div class="col-sm-12">
@@ -64,3 +68,5 @@ weight: 2
         <img src="/img/cities/paris-tee.jpg" alt="Paris T-Shirt" class="media-img project-img">
     </div>
 </div>
+
+<h3>Limited edition 'Cities' t-shirts were screen-printed for the CCAD Summer Show 2017.</h3>
