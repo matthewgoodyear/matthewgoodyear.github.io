@@ -31,6 +31,8 @@ weight: 2
     </div>
 </div>
 
+<h3>Cities, Series 1.</h3>
+
 <div class="row">
     <div class="col-sm-12">
         <img src="/img/cities/newyork.jpg" alt="New York" class="media-img project-img">
@@ -66,3 +68,5 @@ weight: 2
         <img src="/img/cities/paris-tee.jpg" alt="Paris T-Shirt" class="media-img project-img">
     </div>
 </div>
+
+<h3>Limited edition 'Cities' t-shirts were screen-printed for the CCAD Summer Show 2017.</h3>

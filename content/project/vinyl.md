@@ -40,3 +40,5 @@ weight: 5
         <img src="/img/tame/tame_design2.png" alt="work" class="media-img project-img">
     </div>
 </div>
+
+<h3>A range of imagery for use within any print media, inspired by the original album artwork.</h3>
