@@ -36,7 +36,7 @@ a:hover {
 }
 
 .wrapper {
-    max-width: 1280px;
+    max-width: 1200px;
     padding: 0 40px;
     margin: auto;
 }
@@ -52,7 +52,7 @@ header {
 }
 
 .header-container {
-    max-width: 1280px;
+    max-width: 1200px;
     margin: auto;
     padding: 0 40px;
 }
@@ -86,7 +86,7 @@ header {
 h1 {
     text-align: left;
     text-transform: uppercase;
-    font-weight: normal;
+    font-weight: Regular;
     color: #212121;
     font-size: 20px;
     display: block;
@@ -107,14 +107,13 @@ hr {
 }
 
 h2 {
-    font-family: 'FF-Din';
     color: #aaa;
     font-size: 20px;
     line-height: 30px;
     text-align: left;
     margin-bottom: 80px;
     max-width: 80%;
-    font-weight: normal;
+    font-weight: 300;
 }
     h2 a, h3 a {
         padding-bottom: 2px;
@@ -136,7 +135,7 @@ h3 {
 }
 
 footer {
-    max-width: 1280px;
+    max-width: 1200px;
     margin: auto;
     padding: 40px 40px 20px 40px;
 }
@@ -282,6 +281,12 @@ footer {
 
     .project-banner {
         margin-top: 68px;
+        height: 350px;
+    }
+
+    .project-banner-logo {
+        width: 140px;
+        margin-top: 105px;
     }
 
     footer {
