@@ -14,6 +14,24 @@ weight: 1
     </div>
 </div>
 
+<div class="row">
+    <div class="col-sm-6">
+        <img src="/img/wynd/wynd_photography1.jpg" alt="work" class="media-img project-img">
+    </div>
+    <div class="col-sm-6">
+        <img src="/img/wynd/wynd_photography2.jpg" alt="work" class="media-img project-img">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <img src="/img/wynd/wynd_photography3.jpg" alt="work" class="media-img project-img">
+    </div>
+    <div class="col-sm-6">
+        <img src="/img/wynd/wynd_photography4.jpg" alt="work" class="media-img project-img">
+    </div>
+</div>
+
 <h3>Typography, colour & brand style.</h3>
 
 <div class="row">

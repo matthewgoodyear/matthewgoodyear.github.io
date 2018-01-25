@@ -10,6 +10,40 @@ weight: 5
 
 <div class="row">
     <div class="col-sm-12">
+        <img src="/img/tame/tame_logotype.jpg" alt="work" class="media-img project-img">
+    </div>
+</div>
+
+<h3>Logotype.</h3>
+
+<div class="row">
+    <div class="col-sm-12">
+        <img src="/img/tame/tame_pattern.gif" alt="work" class="media-img project-img">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <img src="/img/tame/tame_pattern3.jpg" alt="work" class="media-img project-img">
+    </div>
+    <div class="col-sm-6">
+        <img src="/img/tame/tame_pattern4.jpg" alt="work" class="media-img project-img">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <img src="/img/tame/tame_design1.png" alt="work" class="media-img project-img">
+    </div>
+    <div class="col-sm-6">
+        <img src="/img/tame/tame_design2.png" alt="work" class="media-img project-img">
+    </div>
+</div>
+
+<h3>Pattern variations & imagery used within the vinyl information booklet, inspired by the original album artwork.</h3>
+
+<div class="row">
+    <div class="col-sm-12">
         <img src="/img/tame/tame_vinyl.jpg" alt="work" class="media-img project-img">
     </div>
 </div>
@@ -31,14 +65,3 @@ weight: 5
         <img src="/img/tame/tame_spread3.jpg" alt="work" class="media-img project-img">
     </div>
 </div>
-
-<div class="row">
-    <div class="col-sm-6">
-        <img src="/img/tame/tame_design1.png" alt="work" class="media-img project-img">
-    </div>
-    <div class="col-sm-6">
-        <img src="/img/tame/tame_design2.png" alt="work" class="media-img project-img">
-    </div>
-</div>
-
-<h3>A range of imagery for use within any print media, inspired by the original album artwork.</h3>
