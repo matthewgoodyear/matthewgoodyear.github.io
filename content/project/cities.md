@@ -1,7 +1,7 @@
 ---
 title: "Cities Project"
 excerpt: "Inspired by Lucas Fields' City Badges, this growing series includes various cities from around the globe and recreates their most prominent landmark in a minimal form."
-description: "Inspired by Lucas Fields' City Badges, this growing series includes various cities from around the globe and recreates their most prominent landmark in a minimal form."
+description: "This growing series includes various cities from around the globe and recreates the most prominent landmark in a minimal form."
 draft: false
 image: "/img/cities/cities-thumb.jpg"
 banner: "/img/cities/cities_banner.jpg"
@@ -31,7 +31,7 @@ weight: 2
     </div>
 </div>
 
-<h3>Cities, Series 1.</h3>
+<h4>Cities, Series 1.</h4>
 
 <div class="row">
     <div class="col-sm-12">
@@ -69,4 +69,4 @@ weight: 2
     </div>
 </div>
 
-<h3>Limited edition 'Cities' t-shirts were screen-printed for the CCAD Summer Show 2017.</h3>
+<h4>Limited edition 'Cities' t-shirts were screen-printed for the CCAD Summer Show 2017.</h4>

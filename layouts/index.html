@@ -1,17 +1,16 @@
 {{ partial "header.html" . }}
 
 <div class="wrapper">
-    <h1 class="first">About</h1>
-    <hr align="left">
-    <h2>
-        I'm Matthew, I'm a passionate Logo &amp; Brand Identity Designer based in the North East of England. I currently work for
-        <a href="https://www.betterbrandagency.com/" class="better-link">Better Brand Agency</a> and I'm available for freelance projects. Get in touch via
-        <a href="mailto:hello@matthewgoodyear.com">Email</a> and follow me on
-        <a href="https://www.instagram.com/designer.matt/">Instagram</a> to keep up to date with future projects.
-    </h2>
+    <h1>
+        Hey, I'm Matthew, Junior Designer at
+        <a href="https://www.betterbrandagency.com/" class="better-link">Better</a>.
+        <br>
+        I have a passion for Logo &amp; Brand Identity design.
+    </h1>
+    <hr>
 
-    <h1>Projects</h1>
-    <hr align="left">
+    <!-- <h2>Projects</h2>
+    <hr align="left"> -->
 
     <div class="row">
     {{ range $i, $e := (where .Data.Pages "Section" "project") }}
@@ -29,8 +28,8 @@
     {{ end }}
     </div>
 
-    <h1>Misc.</h1>
-    <hr align="left">
+    <h3>Mmiscellaneous</h3>
+    <hr class="line-no-pad">
 
     <div class="row">
         <div class="col-sm-4">
@@ -43,7 +42,7 @@
             <img src="/img/misc/lumo.jpg" alt="work" class="media-img project-img">
         </div>
         <div class="col-sm-12">
-            <h3>Logo proposals (for clients of <a href="https://www.betterbrandagency.com/" class="better-link">Better</a>) during my current employment. Keep updated on new projects via <a href="https://www.instagram.com/designer.matt/">Instagram</a>.</h3>
+            <h4>Logo proposals (for clients of <a href="https://www.betterbrandagency.com/" class="better-link">Better</a>) during my current employment. Keep updated on new projects via <a href="https://www.instagram.com/designer.matt/">Instagram</a>.</h4>
         </div>
         <div class="col-sm-4">
             <img src="/img/misc/mg1.jpg" alt="work" class="media-img project-img">
@@ -55,7 +54,7 @@
             <img src="/img/misc/mg3.jpg" alt="work" class="media-img project-img">
         </div>
         <div class="col-sm-12">
-            <h3>Unused monograms for my personal rebrand. Full project coming soon.</h3>
+            <h4>Unused monograms for my personal rebrand. Full project coming soon.</h4>
         </div>
         <div class="col-sm-4">
             <img src="/img/misc/tofy1.jpg" alt="work" class="media-img project-img">
@@ -76,7 +75,7 @@
             <img src="/img/misc/azmonogram.jpg" alt="work" class="media-img project-img">
         </div>
         <div class="col-sm-12">
-            <h3>Work created during my time at <a href="../project/ss17/">CCAD</a>.</h3>
+            <h4>Work created during my time at <a href="../project/ss17/">CCAD</a>.</h4>
         </div>
     </div>
 </div>

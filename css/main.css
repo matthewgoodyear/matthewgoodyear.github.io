@@ -81,7 +81,7 @@ header {
     border-top: 3px solid #212121;
 }
 
-h1 {
+h2 {
     font-family: 'Panton-Regular', 'Open Sans', sans-serif;
     text-align: center;
     text-transform: uppercase;
@@ -90,7 +90,7 @@ h1 {
     font-size: 16px;
 }
 
-h2 {
+h3 {
     text-align: center;
     color: #272727;
     font-weight: normal;

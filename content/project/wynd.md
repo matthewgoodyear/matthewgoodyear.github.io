@@ -32,7 +32,13 @@ weight: 1
     </div>
 </div>
 
-<h3>Typography, colour & brand style.</h3>
+<h4>Typography, colour & brand style.</h4>
+
+<div class="row">
+    <div class="col-sm-12">
+        <img src="/img/wynd/wynd_sign2.jpg" alt="work" class="media-img project-img">
+    </div>
+</div>
 
 <div class="row">
     <div class="col-sm-12">

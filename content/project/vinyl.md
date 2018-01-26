@@ -14,7 +14,7 @@ weight: 5
     </div>
 </div>
 
-<h3>Logotype.</h3>
+<h4>Logotype.</h4>
 
 <div class="row">
     <div class="col-sm-12">
@@ -40,7 +40,7 @@ weight: 5
     </div>
 </div>
 
-<h3>Pattern variations & imagery used within the vinyl information booklet, inspired by the original album artwork.</h3>
+<h2>Pattern variations & imagery used within the vinyl booklet, inspired by the original album artwork.</h2>
 
 <div class="row">
     <div class="col-sm-12">
