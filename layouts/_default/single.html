@@ -2,7 +2,7 @@
 
 <div class="wrapper">
     <h1>{{ $.Param "title" }}</h1>
-    <hr>
+    <hr class="parallax">
     {{ if isset .Params "banner" }}
         <div class="project-banner" style="background-image: url({{ $.Param "banner" }});">
             <img class="project-banner-logo" src="{{ $.Param "banner-logo" }}" style="{{ $.Param "display" }}">
@@ -10,7 +10,7 @@
     {{ end}}
 
     <div class="main-content-wrapper">
-        <h2>{{ $.Param "description" }}</h2>
+        <p>{{ $.Param "description" }}</p>
         {{ .Content }}
     </div>
 </div>

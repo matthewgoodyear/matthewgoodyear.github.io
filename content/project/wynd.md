@@ -2,7 +2,7 @@
 title: "Wynd Furinishing"
 description: "A fresh identity for a contemporary furnishing specialist."
 draft: false
-image: "/img/wynd/wynd_thumb.jpg"
+image: "/img/wynd/wynd_thumb2.jpg"
 banner: "/img/wynd/wynd_banner.jpg"
 banner-logo: "/img/wynd/wynd_banner_logo.png"
 weight: 1
@@ -39,6 +39,8 @@ weight: 1
         <img src="/img/wynd/wynd_sign2.jpg" alt="work" class="media-img project-img">
     </div>
 </div>
+
+<h4>Vinyl window sticker.</h4>
 
 <div class="row">
     <div class="col-sm-12">
