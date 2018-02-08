@@ -2,12 +2,27 @@
 title: "The Less I Know The Better"
 description: "The third single from Tame Impala's third studio album, Currents."
 draft: false
-image: "/img/tame/tame_thumb2.jpg"
+image: "/img/tame/tame_thumb.jpg"
 banner: "/img/tame/tame_design2.png"
 display: 'visibility: hidden'
 weight: 2
 ---
 
+<div class="row">
+    <div class="col-sm-12">
+        <img src="/img/tame/tame_sk3.jpg" alt="work" class="media-img project-img">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <img src="/img/tame/tame_sk2.jpg" alt="work" class="media-img project-img">
+    </div>
+    <div class="col-sm-6">
+        <img src="/img/tame/tame_sk1.jpg" alt="work" class="media-img project-img">
+    </div>
+</div>
+<h4>Initial research & exploration.</h4>
 <div class="row">
     <div class="col-sm-12">
         <img src="/img/tame/tame_logotype.jpg" alt="work" class="media-img project-img">

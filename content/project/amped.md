@@ -2,7 +2,7 @@
 title: "Amped Music"
 description: "Logo design for 90's music night, Amped."
 draft: false
-image: "/img/amped/amped_thumb2.jpg"
+image: "/img/amped/amped_thumb.jpg"
 banner: "/"
 banner-logo: "/img/amped/amped_banner_logo.png"
 weight: 7
@@ -15,15 +15,7 @@ weight: 7
 </div>
 <div class="row">
     <div class="col-sm-6">
-        <img src="/img/amped/amped_sk1.jpg" alt="Menu" class="media-img project-img">
-    </div>
-    <div class="col-sm-6">
         <img src="/img/amped/amped_sk2.jpg" alt="Menu" class="media-img project-img">
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm-6">
-        <img src="/img/amped/amped_sk3.jpg" alt="Menu" class="media-img project-img">
     </div>
     <div class="col-sm-6">
         <img src="/img/amped/amped_sk4.jpg" alt="Menu" class="media-img project-img">

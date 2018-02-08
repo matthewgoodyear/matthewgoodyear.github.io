@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: 'FF-Din';
   src: url('../fonts/ff_din_regular.woff') format('woff');
 
@@ -12,7 +12,7 @@
 
   font-weight: lighter;
   font-style: normal;
-}
+}*/
 
 html {
     background-color: #212121;

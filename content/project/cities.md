@@ -3,7 +3,7 @@ title: "Cities Project"
 excerpt: "Inspired by Lucas Fields' City Badges, this growing series includes various cities from around the globe and recreates their most prominent landmark in a minimal form."
 description: "This growing series includes various cities from around the globe and recreates the most prominent landmark in a minimal form."
 draft: false
-image: "/img/cities/cities-thumb2.jpg"
+image: "/img/cities/cities-thumb.jpg"
 banner: "/img/cities/cities_banner.jpg"
 banner-logo: "/img/cities/london-icon.jpg"
 display: 'visibility: hidden'
@@ -36,6 +36,12 @@ weight: 3
 <div class="row">
     <div class="col-sm-12">
         <img src="/img/cities/paris-tee.jpg" alt="Paris T-Shirt" class="media-img project-img">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <img src="/img/cities/cities_tee2.jpg" alt="Paris T-Shirt" class="media-img project-img">
     </div>
 </div>
 
