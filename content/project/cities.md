@@ -1,7 +1,6 @@
 ---
 title: "Cities Project"
-excerpt: "Inspired by Lucas Fields' City Badges, this growing series includes various cities from around the globe and recreates their most prominent landmark in a minimal form."
-description: "This growing series includes various cities from around the globe and recreates the most prominent landmark in a minimal form."
+description: "This growing project includes various cities from around the globe and recreates their most prominent landmark in a minimal form."
 draft: false
 image: "/img/cities/cities-thumb.jpg"
 banner: "/img/cities/cities_banner.jpg"
@@ -31,7 +30,7 @@ weight: 3
     </div>
 </div>
 <h4>Cities, Series 1.</h4>
-<p>This series includes 5 cities, with London being featured on Logo Inspirations' <a href="http://www.logoinspirations.co/city-badge-logo-challenge/" class="logoinspo-link">Logo Badge City Challenge</a>.</p>
+<p>This series includes 5 cities, with London being featured on Logo Inspirations' <a href="http://www.logoinspirations.co/city-badge-logo-challenge/" class="logoinspo-link" target="_blank">Logo Badge City Challenge</a>.</p>
 
 <div class="row">
     <div class="col-sm-12">
@@ -45,7 +44,7 @@ weight: 3
     </div>
 </div>
 
-<p>Limited edition 'Cities' t-shirts were screen-printed for the CCAD Summer Show 2017.</p>
+<p>Limited edition 'Cities' t-shirts were screen-printed for the CCAD Summer Show 2017. See more <a href="/about">here</a>.</p>
 
 <div class="row">
     <div class="col-sm-12">

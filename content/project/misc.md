@@ -1,11 +1,8 @@
 ---
 title: "Miscellaneous"
-description: "A collection of design work, including type experiments, logos & symbols."
 draft: false
 image: "/img/misc/misc_thumb.jpg"
-banner: "/img/misc/misc_banner.jpg"
 display: 'visibility: hidden'
-weight: 8
 ---
 
 <div class="row">
@@ -27,8 +24,8 @@ weight: 8
     <div class="col-sm-4 col-xs-6">
         <img src="/img/misc/cb2.jpg" alt="work" class="media-img project-img">
     </div>
-    <div class="col-sm-12">
-        <h4>Logo proposals during my current employment at <a href="https://www.betterbrandagency.com/" class="better-link">Better Brand Agency</a>. Keep updated on new projects via <a href="https://www.instagram.com/designer.matt/">Instagram</a>.</h4>
+    <div class="col-xs-12">
+        <p>Logo proposals during my current employment at <a href="https://www.betterbrandagency.com/" class="better-link">Better Brand Agency</a>. Keep updated on new projects via <a href="https://www.instagram.com/designer.matt/">Instagram</a>.</p>
     </div>
     <div class="col-sm-4 col-xs-6">
         <img src="/img/misc/mg1.jpg" alt="work" class="media-img project-img">
@@ -40,7 +37,7 @@ weight: 8
         <img src="/img/misc/mg3.jpg" alt="work" class="media-img project-img">
     </div>
     <div class="col-sm-12">
-        <h4>Unused monograms for my personal rebrand. Full project coming soon.</h4>
+        <p>Unused monograms for my personal rebrand. Full project coming soon.</p>
     </div>
     <div class="col-sm-4 col-xs-6">
         <img src="/img/misc/tofy1.jpg" alt="work" class="media-img project-img">
@@ -61,6 +58,6 @@ weight: 8
         <img src="/img/misc/azmonogram.jpg" alt="work" class="media-img project-img">
     </div>
     <div class="col-sm-12">
-        <h4>Work created during my time at <a href="../ss17/">CCAD</a>.</h4>
+        <p>Work created during my time at CCAD.</p>
     </div>
 </div>

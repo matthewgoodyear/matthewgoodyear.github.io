@@ -2,16 +2,16 @@
 
 <div class="wrapper">
     <h1>
-        Hi, I'm Matthew, Junior Designer at
-        <a href="https://www.betterbrandagency.com/" class="better-link">Better</a>.
+        I'm Matthew, Junior Designer at
+        <a href="https://www.betterbrandagency.com/" class="better-link" target="_blank">Better</a>.
         <br>
-        I have a passion for Logo &amp; Brand Identity design.
+        I have a passion for logo &amp; brand identity design.
     </h1>
-    <hr class="parallax">
+    <h2><a href="/about">More about me</a></h2>
 
     <div class="row">
     {{ range $i, $e := (where .Data.Pages "Section" "project") }}
-        <div class="col-sm-6">
+        <div class="col-xs-6">
             <a class="media" href="{{ .Permalink }}">
                 <img src="{{ .Params.image }}" alt="{{ .Title }}" class="media-img">
                 <div class="media-overlay">

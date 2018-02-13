@@ -63,7 +63,7 @@ weight: 2
     </div>
 </div>
 
-<h2>Vinyl Cover & Booklet</h2>
+<h3>Vinyl Cover & Booklet</h3>
 <hr class="line-no-pad">
 <div class="row">
     <div class="col-sm-12">
