@@ -1,10 +1,42 @@
     <footer>
         <ul class="links">
-            <li><a href="mailto:hello@matthewgoodyear.com">Email</a></li><!--
-         --><li><a href="https://www.instagram.com/designer.matt/">Instagram</a></li><!--
-         --><li><a href="https://500px.com/matthewgoodyear">500PX</a></li><!--
+            <li><a href="/about">About</a></li><!--
+         --><li><a href="https://www.instagram.com/designer.matt/" target="_blank">Instagram</a></li><!--
+         --><li><a href="mailto:hello@matthewgoodyear.com">Contact</a></li><!--
+
      --></ul>
-        <p class="copyright">&copy; Matthew Goodyear 2017</p>
+        <p class="copyright">&copy; Matthew Goodyear 2018</p>
     </footer>
+
+    <script>
+        (function() {
+            function setOpacity(element, opacity) {
+                if (!element) return;
+
+                element.style.opacity = opacity;
+            }
+
+            window.addEventListener('scroll', function() {
+                // var heading = document.querySelector('.parallax-heading');
+                // var line = document.querySelector('.parallax-line');
+                // var subHeading = document.querySelector('.parallax-subheading');
+
+
+                var heading = document.getElementsByTagName('h1')[0];
+                var line = document.querySelector('.parallax');
+                var subHeading = document.getElementsByTagName('h2')[0];
+
+                var t = (300 - window.scrollY) / 300;
+
+                if (t < 0.3) {
+                    t = 0.3
+                }
+
+                setOpacity(heading, t)
+                setOpacity(line, t)
+                setOpacity(subHeading, t)
+            });
+        })();
+    </script>
 </body>
 </html>

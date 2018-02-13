@@ -1,83 +1,27 @@
 {{ partial "header.html" . }}
 
 <div class="wrapper">
-    <h1 class="first">About</h1>
-    <hr align="left">
-    <h2>
-        I'm Matthew, I'm a passionate Logo &amp; Brand Identity Designer based in the North East of England. I currently work for
-        <a href="https://www.betterbrandagency.com/" class="better-link">Better Brand Agency</a> and I'm available for freelance projects. Get in touch via
-        <a href="mailto:hello@matthewgoodyear.com">Email</a> and follow me on
-        <a href="https://www.instagram.com/designer.matt/">Instagram</a> to keep up to date with future projects.
-    </h2>
-
-    <h1>Projects</h1>
-    <hr align="left">
+    <h1>
+        I'm Matthew, Junior Designer at
+        <a href="https://www.betterbrandagency.com/" class="better-link" target="_blank">Better</a>.
+        <br>
+        I have a passion for logo &amp; brand identity design.
+    </h1>
+    <h2><a href="/about">More about me</a></h2>
 
     <div class="row">
     {{ range $i, $e := (where .Data.Pages "Section" "project") }}
-        <div class="col-sm-6">
+        <div class="col-xs-6">
             <a class="media" href="{{ .Permalink }}">
                 <img src="{{ .Params.image }}" alt="{{ .Title }}" class="media-img">
                 <div class="media-overlay">
                     <div class="media-overlay-content">
                         <p class="media-title">{{ .Title }}</p>
-                        <p class="media-desc">{{ .Params.description }}</p>
                     </div>
                 </div>
             </a>
         </div>
     {{ end }}
-    </div>
-
-    <h1>Misc.</h1>
-    <hr align="left">
-
-    <div class="row">
-        <div class="col-sm-4">
-            <img src="/img/misc/cb2.jpg" alt="work" class="media-img project-img">
-        </div>
-        <div class="col-sm-4">
-            <img src="/img/misc/cb1.jpg" alt="work" class="media-img project-img">
-        </div>
-        <div class="col-sm-4">
-            <img src="/img/misc/lumo.jpg" alt="work" class="media-img project-img">
-        </div>
-        <div class="col-sm-12">
-            <h3>Logo proposals (for clients of <a href="https://www.betterbrandagency.com/" class="better-link">Better</a>) during my current employment. Keep updated on new projects via <a href="https://www.instagram.com/designer.matt/">Instagram</a>.</h3>
-        </div>
-        <div class="col-sm-4">
-            <img src="/img/misc/mg1.jpg" alt="work" class="media-img project-img">
-        </div>
-        <div class="col-sm-4">
-            <img src="/img/misc/mg2.jpg" alt="work" class="media-img project-img">
-        </div>
-        <div class="col-sm-4">
-            <img src="/img/misc/mg3.jpg" alt="work" class="media-img project-img">
-        </div>
-        <div class="col-sm-12">
-            <h3>Unused monograms for my personal rebrand. Full project coming soon.</h3>
-        </div>
-        <div class="col-sm-4">
-            <img src="/img/misc/tofy1.jpg" alt="work" class="media-img project-img">
-        </div>
-        <div class="col-sm-4">
-            <img src="/img/misc/miscommunication.jpg" alt="work" class="media-img project-img">
-        </div>
-        <div class="col-sm-4">
-            <img src="/img/misc/l.jpg" alt="work" class="media-img project-img">
-        </div>
-        <div class="col-sm-4">
-            <img src="/img/misc/amped-icon.jpg" alt="work" class="media-img project-img">
-        </div>
-        <div class="col-sm-4">
-            <img src="/img/misc/mykri.jpg" alt="work" class="media-img project-img">
-        </div>
-        <div class="col-sm-4">
-            <img src="/img/misc/azmonogram.jpg" alt="work" class="media-img project-img">
-        </div>
-        <div class="col-sm-12">
-            <h3>Work created during my time at <a href="../project/ss17/">CCAD</a>.</h3>
-        </div>
     </div>
 </div>
 {{ partial "footer.html" . }}
