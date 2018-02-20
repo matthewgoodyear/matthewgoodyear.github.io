@@ -75,16 +75,16 @@ header {
 
 .logo-img {
     height: 40px;
+    width: 40px;
     display: block;
     opacity: 1;
     -webkit-transition: opacity .2s ease-in-out;
        -moz-transition: opacity .2s ease-in-out;
             transition: opacity .2s ease-in-out;
 }
-
-.logo-img:hover {
-    opacity: .6;
-}
+    .logo-img:hover {
+        opacity: 0.8;
+    }
 
 p {
     font-size: 25px;
@@ -137,6 +137,7 @@ h1 {
     width: 80%;
     margin: 150px auto 0 auto;
     display: block;
+    transform: translateY(0px);
 }
     h1 a {
         color: #212121;
@@ -156,6 +157,7 @@ h2 {
     width: 80%;
     margin: 15px auto 150px auto;
     display: block;
+    transform: translateY(0px);
 }
     h2 a {
         border-bottom: 1px solid rgba(33, 33, 33, 0);
@@ -229,6 +231,11 @@ footer {
 /**
  * Media images
  */
+ .col-xs-12 {
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+
 .media {
     position: relative;
     overflow: hidden;
@@ -272,24 +279,6 @@ footer {
         margin: 0;
         max-width: 100%;
     }
-    .media-desc{
-        color: #aaa;
-        font-size: 17px;
-        text-align: left;
-        padding-left: 30px;
-        margin: 0;
-        padding-bottom: 30px;
-        line-height: 28px;
-    }
-    .media-about {
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: auto;
-        z-index: 2;
-        color: #212121;
-        background-color: #212121;
-    }
 
 .project-img {
     margin-bottom: 20px;
@@ -305,10 +294,6 @@ footer {
     margin-bottom: 20px;
     display: inline-block;
     background-repeat: no-repeat;
-
-    -moz-transform: translate3d(0,0,0);
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
 }
     .project-banner-logo {
         display: block;
@@ -339,10 +324,6 @@ footer {
 
     .col-xs-6 {
         padding: 5px;
-    }
-
-    .media {
-        margin-bottom: 0;
     }
 
     .start-project {

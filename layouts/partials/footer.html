@@ -16,25 +16,32 @@
                 element.style.opacity = opacity;
             }
 
+            function setTrans(element, newTrans) {
+                if (!element) return;
+
+                element.style.transform = "translateY("+newTrans+"px)";
+                console.log(newTrans);
+            }
+
             window.addEventListener('scroll', function() {
-                // var heading = document.querySelector('.parallax-heading');
-                // var line = document.querySelector('.parallax-line');
-                // var subHeading = document.querySelector('.parallax-subheading');
-
-
                 var heading = document.getElementsByTagName('h1')[0];
                 var line = document.querySelector('.parallax');
                 var subHeading = document.getElementsByTagName('h2')[0];
 
-                var t = (300 - window.scrollY) / 300;
+                var newOpacity = (300 - window.scrollY) / 300;
+                var newTranslation = (window.scrollY / 5);
 
-                if (t < 0.3) {
-                    t = 0.3
+                if (newOpacity < 0.3) {
+                    newOpacity = 0.3
                 }
 
-                setOpacity(heading, t)
-                setOpacity(line, t)
-                setOpacity(subHeading, t)
+                setOpacity(heading, newOpacity)
+                setOpacity(line, newOpacity)
+                setOpacity(subHeading, newOpacity)
+
+                setTrans(heading, newTranslation)
+                setTrans(line, newTranslation)
+                setTrans(subHeading, newTranslation)
             });
         })();
     </script>

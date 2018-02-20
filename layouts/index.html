@@ -11,7 +11,7 @@
 
     <div class="row">
     {{ range $i, $e := (where .Data.Pages "Section" "project") }}
-        <div class="col-xs-6">
+        <div class="col-sm-6 col-xs-12">
             <a class="media" href="{{ .Permalink }}">
                 <img src="{{ .Params.image }}" alt="{{ .Title }}" class="media-img">
                 <div class="media-overlay">
