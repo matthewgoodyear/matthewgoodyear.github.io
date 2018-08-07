@@ -3,6 +3,7 @@ title: "Miscellaneous"
 draft: false
 image: "/img/misc/misc_thumb.jpg"
 display: 'visibility: hidden'
+weight: 6
 ---
 
 <div class="row">

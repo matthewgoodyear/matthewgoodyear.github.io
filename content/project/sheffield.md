@@ -5,7 +5,7 @@ draft: false
 image: "/img/sheffield/sheffield_thumb.jpg"
 banner: "/img/sheffield/sheffield_banner.jpg"
 banner-logo: "/img/sheffield/sheffield_banner_logo.png"
-weight: 6
+weight: 7
 ---
 
 <div class="row">

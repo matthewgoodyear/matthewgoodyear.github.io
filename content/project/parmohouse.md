@@ -5,7 +5,7 @@ draft: false
 image: "/img/parmohouse/ph_thumb.jpg"
 banner: "/img/parmohouse/ph_banner.jpg"
 banner-logo: "/img/parmohouse/ph_banner_logo.png"
-weight: 4
+weight: 3
 ---
 
 <div class="row">

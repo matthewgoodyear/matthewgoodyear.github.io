@@ -5,7 +5,7 @@ draft: false
 image: "/img/amped/amped_thumb.jpg"
 banner: "/"
 banner-logo: "/img/amped/amped_banner_logo.png"
-weight: 7
+weight: 8
 ---
 
 <div class="row">

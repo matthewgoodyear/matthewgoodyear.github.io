@@ -6,7 +6,7 @@ image: "/img/cities/cities-thumb.jpg"
 banner: "/img/cities/cities_banner.jpg"
 banner-logo: "/img/cities/london-icon.jpg"
 display: 'visibility: hidden'
-weight: 3
+weight: 1
 ---
 
 <div class="row">
