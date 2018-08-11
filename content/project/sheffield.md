@@ -1,11 +1,11 @@
 ---
 title: "The Steel City"
-description: "A city in the eastern foothills of the Pennines, and the valleys of the River Don, Sheffield is known as the Steel City. Many innovations were developed locally, including crucible and stainless steel."
+description: "I was challenged to create a logo for Sheffield, a city in the eastern foothills of the Pennines, and the valleys of the River Don. Known as the Steel City, many innovations were developed locally, including crucible and stainless steel."
 draft: false
 image: "/img/sheffield/sheffield_thumb.jpg"
 banner: "/img/sheffield/sheffield_banner.jpg"
 banner-logo: "/img/sheffield/sheffield_banner_logo.png"
-weight: 6
+weight: 7
 ---
 
 <div class="row">

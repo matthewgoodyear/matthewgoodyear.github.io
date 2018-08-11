@@ -1,0 +1,43 @@
+---
+title: "About"
+banner: "/img/about/about_banner.jpg"
+display: 'visibility: hidden'
+draft: false
+---
+
+<p>
+    I'm Matthew, I have a passion for logo &amp; brand identity design. Since a young age I've always loved being creative, from developing websites and games to having a passion for photography. I studied graphic design at Cleveland College of Art and Design and went on to join an award winning design agency.
+</p>
+
+<div class="row">
+    <div class="col-sm-12">
+        <img src="/img/about/about_saltburn.jpg" alt="" class="media-img project-img">
+    </div>
+</div>
+<h4>Saltburn sunrise, 2013. See more on <a href="https://500px.com/matthewgoodyear">500px</a>.</h4>
+
+<p class="first-p">
+    I currently work at <a href="https://www.betterbrandagency.com/" class="better-link" target="_blank">Better</a>, a North East based branding agency. I've gained a massive amount of knowledge working alongside experienced designers and being involved in a variety of projects, including logo design, editorial and naming strategy. Read more about my journey <a href="https://www.betterbrandagency.com/blog/2017/11/the-journey-of-a-junior-designer/" target="_blank">here</a>.
+</p>
+
+<p class="second-p">
+    Get in touch via <a href="mailto:hello@matthewgoodyear.com">Email</a> or keep up to date with future projects on <a href="https://www.instagram.com/designer.matt/" target="_blank">Instagram</a>.
+</p>
+
+<h3>CCAD Summer Show 2017</h3>
+<hr class="line-no-pad">
+
+<div class="row">
+    <div class="col-sm-12">
+        <img src="/img/about/about_show.jpg" alt="" class="media-img project-img">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <img src="/img/about/about_zine.jpg" alt="" class="media-img project-img">
+    </div>
+    <div class="col-sm-6">
+        <img src="/img/about/about_tees.jpg" alt="" class="media-img project-img">
+    </div>
+</div>

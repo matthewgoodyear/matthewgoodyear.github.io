@@ -1,10 +1,49 @@
     <footer>
         <ul class="links">
-            <li><a href="mailto:hello@matthewgoodyear.com">Email</a></li><!--
-         --><li><a href="https://www.instagram.com/designer.matt/">Instagram</a></li><!--
-         --><li><a href="https://500px.com/matthewgoodyear">500PX</a></li><!--
+            <li><a href="/about">About</a></li><!--
+         --><li><a href="https://www.instagram.com/designer.matt/" target="_blank">Instagram</a></li><!--
+         --><li><a href="mailto:hello@matthewgoodyear.com">Contact</a></li><!--
+
      --></ul>
-        <p class="copyright">&copy; Matthew Goodyear 2017</p>
+        <p class="copyright">&copy; Matthew Goodyear 2018</p>
     </footer>
+
+    <script>
+        (function() {
+            function setOpacity(element, opacity) {
+                if (!element) return;
+
+                element.style.opacity = opacity;
+            }
+
+            function setTrans(element, newTrans) {
+                if (!element) return;
+
+                element.style.transform = "translateY("+newTrans+"px)";
+                console.log(newTrans);
+            }
+
+            window.addEventListener('scroll', function() {
+                var heading = document.getElementsByTagName('h1')[0];
+                var line = document.querySelector('.parallax');
+                var subHeading = document.getElementsByTagName('h2')[0];
+
+                var newOpacity = (300 - window.scrollY) / 300;
+                var newTranslation = (window.scrollY / 5);
+
+                if (newOpacity < 0.3) {
+                    newOpacity = 0.3
+                }
+
+                setOpacity(heading, newOpacity)
+                setOpacity(line, newOpacity)
+                setOpacity(subHeading, newOpacity)
+
+                setTrans(heading, newTranslation)
+                setTrans(line, newTranslation)
+                setTrans(subHeading, newTranslation)
+            });
+        })();
+    </script>
 </body>
 </html>
