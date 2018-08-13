@@ -1,5 +1,6 @@
 ---
 title: "Miscellaneous"
+type: "Symbols & Monograms"
 draft: false
 image: "/img/misc/misc_thumb.jpg"
 display: 'visibility: hidden'
@@ -38,7 +39,7 @@ weight: 6
         <img src="/img/misc/mg3.jpg" alt="work" class="media-img project-img">
     </div>
     <div class="col-sm-12">
-        <p>Unused monograms for my personal rebrand. Full project coming soon.</p>
+        <p>Unused monograms for my personal rebrand.</p>
     </div>
     <div class="col-sm-4 col-xs-6">
         <img src="/img/misc/tofy1.jpg" alt="work" class="media-img project-img">

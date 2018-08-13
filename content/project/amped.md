@@ -1,5 +1,6 @@
 ---
-title: "Amped Music"
+title: "Amped"
+type: "Logo"
 description: "Logo design for 90's music night, Amped."
 draft: false
 image: "/img/amped/amped_thumb.jpg"
