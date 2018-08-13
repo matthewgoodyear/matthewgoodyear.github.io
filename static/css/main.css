@@ -7,34 +7,34 @@ body {
     padding: 0;
     font-family: 'Neuton', serif;
     -webkit-font-smoothing: antialiased;
-    color: #272727;
+    color: rgba(0, 0, 0, 1);
     background-color: #fff;
 }
 
 a {
     text-decoration: none;
     color: #aaa;
-    -webkit-transition: all .2s ease-in-out;
-       -moz-transition: all .2s ease-in-out;
-            transition: all .2s ease-in-out;
+    -webkit-transition: all .15s ease-in-out;
+       -moz-transition: all .15s ease-in-out;
+            transition: all .15s ease-in-out;
 }
     a:hover {
         text-decoration: none;
-        color: #212121;
+        color: rgba(0, 0, 0, 1);
     }
     .better-link:hover {
         color: #E2007C;
     }
 .logoinspo-link {
         border-bottom: 1px solid;
-        color: #212121;
+        color: rgba(0, 0, 0, 1);
     }
     .logoinspo-link:hover {
         color: #008080;
     }
 
 hr {
-    color: #212121;
+    color: rgba(0, 0, 0, 1);
     border: none;
     width: 30px;
     border-bottom: 2px solid;
@@ -108,7 +108,7 @@ p {
 }
 
 p a {
-    color: #212121;
+    color: rgba(0, 0, 0, 1);
     border-bottom: 1px solid;
 }
 
@@ -122,11 +122,11 @@ p a:hover {
     margin-bottom: 0;
 }
     .start-project a {
-        border-bottom: 1px solid rgba(33, 33, 33, 0);
+        border-bottom: 1px solid rgba(0, 0, 0, 0);
     }
     .start-project a:hover {
-        color: #212121;
-        border-bottom: 1px solid rgba(33, 33, 33, 1);
+        color: rgba(0, 0, 0, 1);
+        border-bottom: 1px solid rgba(0, 0, 0, 1);
     }
 
 h1 {
@@ -140,11 +140,11 @@ h1 {
     transform: translateY(0px);
 }
     h1 a {
-        color: #212121;
-        border-bottom: 1px solid rgba(33, 33, 33, 1);
+        color: rgba(0, 0, 0, 1);
+        border-bottom: 1px solid rgba(0, 0, 0, 1);
     }
     h1 a:hover {
-        color: #212121;
+        color: rgba(0, 0, 0, 1);
         border-bottom: 1px solid;
     }
 
@@ -160,11 +160,11 @@ h2 {
     transform: translateY(0px);
 }
     h2 a {
-        border-bottom: 1px solid rgba(33, 33, 33, 0);
+        border-bottom: 1px solid rgba(0, 0, 0, 0);
     }
     h2 a:hover {
-        border-bottom: 1px solid rgba(33, 33, 33, 1);
-        color: #212121;
+        border-bottom: 1px solid rgba(0, 0, 0, 1);
+        color: rgba(0, 0, 0, 1);
     }
 
 h3 {
@@ -197,7 +197,7 @@ footer {
 .copyright {
     text-align: right;
     font-size: 22px;
-    color: rgba(33,33,33,0.4);
+    color: rgba(0,0,0,0.4);
     margin-bottom: 0;
     margin-top: 0;
     line-height: 72px;
@@ -216,7 +216,7 @@ footer {
         display: inline-block;
         /*text-transform: uppercase;*/
         padding: 0 19px 0 20px;
-        border-left: 1px solid rgba(33,33,33,0.4);
+        border-left: 1px solid rgba(0,0,0,0.4);
     }
 
     .links li:first-child {
@@ -258,32 +258,22 @@ footer {
         align-items: center;
         justify-content: center;
         color: rgba(255, 255, 255, 0);
-        opacity: 0;
-        background-color: rgba(33, 33, 33, 0);
-        background-blend-mode: multiply;
-        -webkit-transition: all .2s ease-in-out;
-           -moz-transition: all .2s ease-in-out;
-                transition: all .2s ease-in-out;
+        /*opacity: 0;*/
+        background-color: rgba(0, 0, 0, 0);
+        -webkit-transition: all .15s ease-in-out;
+           -moz-transition: all .15s ease-in-out;
+                transition: all .15s ease-in-out;
     }
     .media-overlay:hover {
-        background-color: rgba(33, 33, 33, 1);
+        background-color: rgba(0, 0, 0, 1);
         color: rgba(255, 255, 255, 1);
-        opacity: 1;
+        /*opacity: 1;*/
     }
     .media-overlay-content {
         width: 80%;
     }
-    .media-plus {
-        color: #fff;
-        text-align: center;
-        font-size: 60px;
-        margin: 0;
-        max-width: 100%;
-        line-height: 24px;
-
-    }
     .media-title {
-        color: #212121;
+        color: rgba(0, 0, 0, 1);
         text-align: left;
         font-size: 26px;
         margin: 0;
@@ -336,6 +326,10 @@ footer {
     .media-overlay {
         display: none;
         visibility: hidden;
+    }
+
+    .media {
+        margin-bottom: 10px;
     }
 
     .wrapper {
