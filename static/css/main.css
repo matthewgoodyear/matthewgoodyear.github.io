@@ -57,7 +57,7 @@ hr {
 
 header {
     width: 100%;
-    border-top: 3px solid #212121;
+    /*border-top: 3px solid #212121;*/
     z-index: 100;
     background-color: #fff;
     padding: 40px 0;
@@ -240,15 +240,12 @@ footer {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    -webkit-transform-style: preserve-3d;
-       -moz-transform-style: preserve-3d;
-            transform-style: preserve-3d;
     display: block;
     margin-bottom: 20px;
 }
-    .media-img {
-        max-width: 100%;
-    }
+.media-img{
+    width: 100%;
+}
     .media-overlay {
         position: absolute;
         top: 0;
@@ -260,24 +257,47 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #fff;
-        background: #212121;
+        color: rgba(255, 255, 255, 0);
         opacity: 0;
-        -webkit-transition: opacity .2s ease-in-out;
-           -moz-transition: opacity .2s ease-in-out;
-                transition: opacity .2s ease-in-out;
+        background-color: rgba(33, 33, 33, 0);
+        background-blend-mode: multiply;
+        -webkit-transition: all .2s ease-in-out;
+           -moz-transition: all .2s ease-in-out;
+                transition: all .2s ease-in-out;
     }
     .media-overlay:hover {
+        background-color: rgba(33, 33, 33, 1);
+        color: rgba(255, 255, 255, 1);
         opacity: 1;
     }
     .media-overlay-content {
         width: 80%;
     }
-    .media-title {
-        color: #f2f2f2;
-        font-size: 30px;
+    .media-plus {
+        color: #fff;
+        text-align: center;
+        font-size: 60px;
         margin: 0;
         max-width: 100%;
+        line-height: 24px;
+
+    }
+    .media-title {
+        color: #212121;
+        text-align: left;
+        font-size: 26px;
+        margin: 0;
+        max-width: 100%;
+        line-height: 20px;
+
+    }
+    .media-type {
+        color: #aaa;
+        text-align: left;
+        font-size: 26px;
+        margin: 0;
+        max-width: 100%;
+        margin-bottom: 40px;
     }
 
 .project-img {
@@ -393,5 +413,10 @@ footer {
     .row {
         margin-right: 0;
         margin-left: 0;
+    }
+
+    .media-title, .media-type {
+        font-size: 22px;
+        line-height: 26px;
     }
 }

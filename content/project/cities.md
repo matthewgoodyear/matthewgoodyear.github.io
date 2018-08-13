@@ -1,5 +1,6 @@
 ---
 title: "Cities Project"
+type: "Icons"
 description: "This growing project includes various cities from around the globe and recreates their most prominent landmark in a minimal form."
 draft: false
 image: "/img/cities/cities-thumb.jpg"

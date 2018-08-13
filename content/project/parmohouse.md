@@ -1,5 +1,6 @@
 ---
 title: "The Parmo House"
+type: "Identity"
 description: "An industiral style restaurant, specialising in a dish originating in Middlesbrough, England."
 draft: false
 image: "/img/parmohouse/ph_thumb.jpg"

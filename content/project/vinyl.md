@@ -1,8 +1,9 @@
 ---
 title: "The Less I Know The Better"
+type: "Vinyl Cover"
 description: "The third single from Tame Impala's third studio album, Currents."
 draft: false
-image: "/img/tame/tame_thumb.jpg"
+image: "/img/tame/tame_thumb_alt.jpg"
 banner: "/img/tame/tame_design2.png"
 display: 'visibility: hidden'
 weight: 2

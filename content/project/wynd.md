@@ -1,5 +1,6 @@
 ---
-title: "Wynd Furinishing"
+title: "Wynd"
+type: "Identity"
 description: "A fresh identity for a contemporary furnishing specialist."
 draft: false
 image: "/img/wynd/wynd_thumb.jpg"
