@@ -35,6 +35,12 @@ weight: 3
     </div>
 </div>
 
+<div class="row">
+    <div class="col-sm-12">
+        <img src="/img/parmohouse/ph_card.jpg" alt="Website" class="media-img project-img">
+    </div>
+</div>
+
 <h4>Website design for desktop and mobile.</h4>
 
 <div class="row">

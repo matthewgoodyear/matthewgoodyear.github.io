@@ -241,7 +241,7 @@ footer {
     overflow: hidden;
     z-index: 1;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .media-img{
     width: 100%;
@@ -275,20 +275,19 @@ footer {
     .media-title {
         color: rgba(0, 0, 0, 1);
         text-align: left;
-        font-size: 26px;
+        font-size: 28px;
         margin: 0;
+        margin-bottom: 40px;
         max-width: 100%;
-        line-height: 20px;
-
     }
-    .media-type {
+    /*.media-type {
         color: #aaa;
         text-align: left;
         font-size: 26px;
         margin: 0;
         max-width: 100%;
         margin-bottom: 40px;
-    }
+    }*/
 
 .project-img {
     margin-bottom: 20px;
@@ -304,12 +303,21 @@ footer {
     margin-bottom: 20px;
     display: inline-block;
     background-repeat: no-repeat;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.helper {
+display: inline-block;
+height: 100%;
+vertical-align: middle;
 }
     .project-banner-logo {
-        display: block;
+        /*display: block;*/
+        vertical-align: middle;
+        max-height: 180px;
         margin: auto;
-        width: 180px;
-        margin-top: 110px;
+        max-width: 400px;
     }
 
 @media only screen and (max-width : 767px) {
@@ -349,10 +357,9 @@ footer {
         margin-top: 68px;
         height: 350px;
     }
-
     .project-banner-logo {
-        width: 140px;
-        margin-top: 105px;
+        max-height: 140px;
+        max-width: 250px;
     }
 
     footer {
