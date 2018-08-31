@@ -4,6 +4,7 @@ type: "Vinyl Cover"
 description: "The third single from Tame Impala's third studio album, Currents."
 draft: false
 image: "/img/tame/tame_thumb_alt.jpg"
+hover: "/img/tame/tame_hover.jpg"
 banner: "/img/tame/tame_design2.png"
 display: 'visibility: hidden'
 weight: 2

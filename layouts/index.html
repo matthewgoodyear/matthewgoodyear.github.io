@@ -10,15 +10,13 @@
     <div class="row">
     {{ range $i, $e := (where .Data.Pages "Section" "project") }}
         <div class="col-sm-6 col-xs-12 media-outer">
-            <a class="media" href="{{ .Permalink }}">
-                <img src="{{ .Params.image }}" alt="{{ .Title }}" class="media-img">
-                <div class="media-overlay">
-                    <div class="media-overlay-content">
-                    </div>
+            <a href="{{ .Permalink }}">
+                <div class="media">
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}" class="media-img">
+                    <div class="media-overlay" style="background-image: url({{ .Params.hover }});"></div>
                 </div>
+                <p class="media-title">{{ .Title }}</p>
             </a>
-            <p class="media-title">{{ .Title }}</p>
-            <!-- <p class="media-type">{{ .Type }}</p> -->
         </div>
     {{ end }}
     </div>

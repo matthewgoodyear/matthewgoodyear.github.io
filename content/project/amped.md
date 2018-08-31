@@ -4,6 +4,7 @@ type: "Logo"
 description: "Logo design for 90's music night, Amped."
 draft: false
 image: "/img/amped/amped_thumb.jpg"
+hover: "/img/amped/amped_hover.jpg"
 banner: "/"
 banner-logo: "/img/amped/amped_banner_logo.png"
 weight: 8

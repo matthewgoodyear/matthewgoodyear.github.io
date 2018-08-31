@@ -4,6 +4,7 @@ type: "#logohunt"
 description: "Thyssenkrupp is a multinational company with focus on industrial engineering and steel production. I decided to use them as my entry for the logo hunt competition run by logo inspirations."
 draft: false
 image: "/img/thyssenkrupp/thyssenkrupp_thumb.jpg"
+hover: "/img/thyssenkrupp/thyssenkrupp_hover.jpg"
 banner: "/img/thyssenkrupp/thyssenkrupp_banner.jpg"
 banner-logo: "/img/thyssenkrupp/thyssenkrupp_logo.png"
 weight: 1

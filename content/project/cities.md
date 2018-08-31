@@ -1,9 +1,9 @@
 ---
 title: "Cities Project"
-type: "Icons"
 description: "This growing project includes various cities from around the globe and recreates their most prominent landmark in a minimal form."
 draft: false
-image: "/img/cities/cities-thumb.jpg"
+image: "/img/cities/cities_thumb.jpg"
+hover: "/img/cities/cities_hover.jpg"
 banner: "/img/cities/cities_banner.jpg"
 banner-logo: "/img/cities/london-icon.jpg"
 display: 'visibility: hidden'
