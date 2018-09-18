@@ -1,78 +1,80 @@
 ---
 title: "Cities Project"
-type: "Icons"
 description: "This growing project includes various cities from around the globe and recreates their most prominent landmark in a minimal form."
+type: "Icons set"
 draft: false
-image: "/img/cities/cities-thumb.jpg"
+image: "/img/cities/cities_thumb.jpg"
 banner: "/img/cities/cities_banner.jpg"
 banner-logo: "/img/cities/london-icon.jpg"
 display: 'visibility: hidden'
-weight: 1
+weight: 5
 ---
 
 <div class="row">
-    <div class="col-sm-6">
-        <img src="/img/cities/paris-icon.jpg" alt="Paris" class="media-img project-img">
+    <div class="col-sm-4">
+        <img src="/img/cities/paris-icon.jpg" alt="Paris" class="project-img">
     </div>
-    <div class="col-sm-6">
-        <img src="/img/cities/newyork-icon.jpg" alt="New York" class="media-img project-img">
+    <div class="col-sm-4">
+        <img src="/img/cities/newyork-icon.jpg" alt="New York" class="project-img">
+    </div>
+    <div class="col-sm-4">
+        <img src="/img/cities/london-icon.jpg" alt="London" class="project-img">
     </div>
 </div>
 
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm-4">
-        <img src="/img/cities/london-icon.jpg" alt="London" class="media-img project-img">
+        <img src="/img/cities/seattle-icon.jpg" alt="Seattle" class="project-img">
     </div>
     <div class="col-sm-4">
-        <img src="/img/cities/seattle-icon.jpg" alt="Seattle" class="media-img project-img">
+        <img src="/img/cities/kuala-icon.jpg" alt="Kuala" class="project-img">
     </div>
     <div class="col-sm-4">
-        <img src="/img/cities/kuala-icon.jpg" alt="Kuala" class="media-img project-img">
+        <p>This series includes 5 cities, with London being featured on Logo Inspirations' <a href="http://www.logoinspirations.co/city-badge-logo-challenge/" class="logoinspo-link" target="_blank">Logo Badge City Challenge</a>.</p>
     </div>
-</div>
-<h4>Cities, Series 1.</h4>
+</div> -->
 <p>This series includes 5 cities, with London being featured on Logo Inspirations' <a href="http://www.logoinspirations.co/city-badge-logo-challenge/" class="logoinspo-link" target="_blank">Logo Badge City Challenge</a>.</p>
 
 <div class="row">
     <div class="col-sm-12">
-        <img src="/img/cities/paris-tee.jpg" alt="Paris T-Shirt" class="media-img project-img">
+        <img src="/img/cities/cities_tee2.jpg" alt="Paris T-Shirt" class="project-img">
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm-12">
-        <img src="/img/cities/cities_tee2.jpg" alt="Paris T-Shirt" class="media-img project-img">
+        <img src="/img/cities/paris-tee.jpg" alt="Paris T-Shirt" class="project-img">
     </div>
 </div>
 
-<p>Limited edition 'Cities' t-shirts were screen-printed for the CCAD Summer Show 2017. See more <a href="/about">here</a>.</p>
+<p>Limited edition 'Cities' tshirts were screen-printed for the CCAD Summer Show 2017.</p>
 
 <div class="row">
     <div class="col-sm-12">
-        <img src="/img/cities/newyork.jpg" alt="New York" class="media-img project-img">
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm-12">
-        <img src="/img/cities/london.jpg" alt="London" class="media-img project-img">
+        <img src="/img/cities/newyork.jpg" alt="New York" class="project-img">
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm-12">
-        <img src="/img/cities/seattle.jpg" alt="Seattle" class="media-img project-img">
+        <img src="/img/cities/london.jpg" alt="London" class="project-img">
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm-12">
-        <img src="/img/cities/kuala.jpg" alt="kuala" class="media-img project-img">
+        <img src="/img/cities/seattle.jpg" alt="Seattle" class="project-img">
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm-12">
-        <img src="/img/cities/paris.jpg" alt="Paris" class="media-img project-img">
+        <img src="/img/cities/kuala.jpg" alt="kuala" class="project-img">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <img src="/img/cities/paris.jpg" alt="Paris" class="project-img">
     </div>
 </div>

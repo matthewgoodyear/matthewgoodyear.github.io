@@ -1,9 +1,10 @@
 ---
 title: "Wynd"
-type: "Identity"
-description: "A fresh identity for a contemporary furnishing specialist."
-draft: false
-image: "/img/wynd/wynd_thumb.jpg"
+type: "Editorial"
+description: "Editorial design for a contemporary furnishing specialist."
+draft: true
+image: "/img/wynd/wynd_thumb_alt.jpg"
+hover: "/img/wynd/wynd_hover.jpg"
 banner: "/img/wynd/wynd_banner.jpg"
 banner-logo: "/img/wynd/wynd_banner_logo.png"
 weight: 5
