@@ -1,17 +1,18 @@
 {{ partial "header.html" . }}
 
 <div class="wrapper">
-    <h1>{{ $.Param "title" }}</h1>
-    <hr class="parallax">
-    {{ if isset .Params "banner" }}
-        <div class="project-banner" style="background-image: url({{ $.Param "banner" }});">
+    <div class="intro-wrapper">
+        <h1>{{ $.Param "title" }}</h1>
+        <hr class="parallax">
+        {{ if isset .Params "banner" }}
+    </div>
+        <div class="project-banner" style="background-image: url({{ $.Param "banner" }}); background-color: {{ $.Param "colour" }};">
             <span class="helper"></span><img class="project-banner-logo" src="{{ $.Param "banner-logo" }}" style="{{ $.Param "display" }}">
         </div>
     {{ end}}
-
     <div class="main-content-wrapper">
         <p>{{ $.Param "description" }}</p>
-        {{ .Content }}
+        <div>{{ .Content }}</div>
     </div>
 </div>
 

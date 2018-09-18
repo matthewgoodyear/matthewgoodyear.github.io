@@ -13,7 +13,7 @@
             <a href="{{ .Permalink }}">
                 <div class="media">
                     <img src="{{ .Params.image }}" alt="{{ .Title }}" class="media-img">
-                    <div class="media-overlay" style="background-image: url({{ .Params.hover }});"></div>
+                    <!-- <div class="media-overlay"></div> -->
                 </div>
                 <p class="media-title">{{ .Title }}</p>
             </a>
@@ -22,3 +22,4 @@
     </div>
 </div>
 {{ partial "footer.html" . }}
+<!-- style="background-image: url({{ .Params.hover }});" -->
