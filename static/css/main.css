@@ -29,6 +29,9 @@ body {
     background-color: #fff;
 }
 
+::-moz-selection { background-color: black; color: white; }
+::selection { background-color: black; color: white; }
+
 p:empty {display:none;}
 
 a {

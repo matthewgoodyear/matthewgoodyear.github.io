@@ -1,5 +1,5 @@
 ---
-title: "Get to know me"
+title: "About"
 banner: "/img/about/about_banner.jpg"
 display: 'visibility: hidden'
 draft: false
