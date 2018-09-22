@@ -1,65 +1,78 @@
 ---
 title: "Symbols & Monograms"
+description: "A collection of logo concepts from past projects."
 type: "Symbols & Monograms"
 draft: false
 image: "/img/misc/misc_thumb.jpg"
+banner: "/img/misc/misc_banner.jpg"
 display: 'visibility: hidden'
 weight: 7
 ---
 
 <div class="row">
-    <div class="col-sm-4 col-xs-6">
+    <div class="col-sm-4">
         <img src="/img/misc/lumo.jpg" alt="work" class="project-img">
     </div>
-    <div class="col-sm-4 col-xs-6">
-        <img src="/img/misc/wbtb_2.jpg" alt="work" class="project-img">
-    </div>
-    <div class="col-sm-4 col-xs-6">
-        <img src="/img/misc/wbtb_1.jpg" alt="work" class="project-img">
-    </div>
-    <div class="col-sm-4 col-xs-6">
-        <img src="/img/misc/cb1.jpg" alt="work" class="project-img">
-    </div>
-    <div class="col-sm-4 col-xs-6">
-        <img src="/img/misc/cb3.jpg" alt="work" class="project-img">
-    </div>
-    <div class="col-sm-4 col-xs-6">
-        <img src="/img/misc/cb2.jpg" alt="work" class="project-img">
-    </div>
-    <div class="col-xs-12">
-        <p>Logo proposals during my current employment at <a href="https://www.betterbrandagency.com/" class="better-link" target="_blank">Better Brand Agency</a>. Keep updated on new projects via <a href="https://www.instagram.com/gdy.design/" target="_blank">Instagram</a>.</p>
-    </div>
-    <div class="col-sm-4 col-xs-6">
-        <img src="/img/misc/mg1.jpg" alt="work" class="project-img">
-    </div>
-    <div class="col-sm-4 col-xs-6">
-        <img src="/img/misc/mg2.jpg" alt="work" class="project-img">
-    </div>
-    <div class="col-sm-4 col-xs-6">
-        <img src="/img/misc/mg3.jpg" alt="work" class="project-img">
-    </div>
-    <div class="col-sm-12">
-        <p>Unused monograms for my personal rebrand.</p>
-    </div>
-    <div class="col-sm-4 col-xs-6">
-        <img src="/img/misc/tofy1.jpg" alt="work" class="project-img">
-    </div>
-    <div class="col-sm-4 col-xs-6">
-        <img src="/img/misc/miscommunication.jpg" alt="work" class="project-img">
-    </div>
-    <div class="col-sm-4 col-xs-6">
+    <div class="col-sm-4">
         <img src="/img/misc/l.jpg" alt="work" class="project-img">
     </div>
-    <div class="col-sm-4 col-xs-6">
-        <img src="/img/misc/amped-icon.jpg" alt="work" class="project-img">
+</div>
+<div class="row">
+    <div class="col-sm-4">
+        <img src="/img/misc/wbtb_2.jpg" alt="work" class="project-img">
     </div>
-    <div class="col-sm-4 col-xs-6">
-        <img src="/img/misc/mykri.jpg" alt="work" class="project-img">
+    <div class="col-sm-4">
+        <img src="/img/misc/wbtb_1.jpg" alt="work" class="project-img">
     </div>
-    <div class="col-sm-4 col-xs-6">
+</div>
+
+<div class="row">
+    <div class="col-sm-4">
+        <img src="/img/misc/cb1.jpg" alt="work" class="project-img">
+    </div>
+    <div class="col-sm-4">
+        <img src="/img/misc/cb3.jpg" alt="work" class="project-img">
+    </div>
+    <!-- <div class="col-sm-4">
+        <img src="/img/misc/cb2.jpg" alt="work" class="project-img">
+    </div> -->
+    <div class="col-xs-4">
+        <p>Logo proposals during my current employment at <a href="https://www.betterbrandagency.com/" class="better-link" target="_blank">Better Brand Agency</a>. Keep updated on new projects via <a href="https://www.instagram.com/gdy.design/" target="_blank">Instagram</a>.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+        <img src="/img/misc/mg1.jpg" alt="work" class="project-img">
+    </div>
+    <div class="col-sm-4">
+        <img src="/img/misc/mg2.jpg" alt="work" class="project-img">
+    </div>
+    <!-- <div class="col-sm-3">
+        <img src="/img/misc/mg3.jpg" alt="work" class="project-img">
+    </div> -->
+    <div class="col-sm-4">
+        <p>Unused monograms for my personal rebrand.</p>
+    </div>
+</div>
+<div class="row">
+    <!-- <div class="col-sm-3">
+        <img src="/img/misc/tofy1.jpg" alt="work" class="project-img">
+    </div> -->
+    <div class="col-sm-4">
+        <img src="/img/misc/miscommunication.jpg" alt="work" class="project-img">
+    </div>
+    <div class="col-sm-4">
         <img src="/img/misc/azmonogram.jpg" alt="work" class="project-img">
     </div>
-    <div class="col-sm-12">
+    <div class="col-sm-4">
         <p>Work created during my time at CCAD.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+        <img src="/img/misc/amped-icon.jpg" alt="work" class="project-img">
+    </div>
+    <div class="col-sm-4">
+        <img src="/img/misc/mykri.jpg" alt="work" class="project-img">
     </div>
 </div>

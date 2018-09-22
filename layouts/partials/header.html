@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ with .Page.Params.Title }}{{ . }} | {{ end }}Goodyear | Logo & Brand Identity</title>
+    <title>{{ with .Page.Params.Title }}{{ . }} - {{ end }}Goodyear | Logo & Brand Identity</title>
     {{ with .Page.Params.description }}
     <meta name="description" content="{{ . }}">
     {{ else }}
-    <meta name="description" content="Hi, I'm Matthew. I'm a Graphic Designer based in Middlesbrough, UK.">
+    <meta name="description" content="Hey, I'm Matthew. I'm a Graphic Designer based in Middlesbrough, UK.">
     {{ end }}
 
     <link rel="shortcut icon" href="{{ $.Site.BaseURL }}img/favicon.ico" type="image/x-icon">

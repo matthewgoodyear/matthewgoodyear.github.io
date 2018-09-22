@@ -9,7 +9,7 @@ banner-logo: "/img/parmohouse/ph_banner_logo.png"
 weight: 6
 ---
 
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm-12">
         <img src="/img/parmohouse/ph_sk1.jpg" alt="Menu" class="project-img">
     </div>
@@ -21,33 +21,43 @@ weight: 6
     <div class="col-sm-6">
         <img src="/img/parmohouse/ph_sk3.jpg" alt="Menu" class="project-img">
     </div>
+</div> -->
+<div class="row">
+    <div class="col-sm-8">
+        <img src="/img/parmohouse/ph_logo.jpg" alt="Menu" class="project-img">
+    </div>
 </div>
 <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-8">
+        <img src="/img/parmohouse/ph_logo_bw.jpg" alt="Menu" class="project-img">
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-8">
         <img src="/img/parmohouse/ph_menu.jpg" alt="Menu" class="project-img">
     </div>
 </div>
 
 <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-8">
         <img src="/img/parmohouse/ph_web.jpg" alt="Website" class="project-img">
     </div>
 </div>
 
 <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-8">
         <img src="/img/parmohouse/ph_card.jpg" alt="Website" class="project-img">
     </div>
 </div>
 
 <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-8">
         <img src="/img/parmohouse/ph_box.jpg" alt="work" class="project-img">
     </div>
 </div>
 
 <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-8">
         <img src="/img/parmohouse/ph_cup.jpg" alt="work" class="project-img">
     </div>
 </div>
