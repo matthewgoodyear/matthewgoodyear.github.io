@@ -1,7 +1,7 @@
 ---
 title: "Essex Brewery"
 description: "Essex Brewery is a modern apartment complex built on the site of a former Brewery."
-draft: false
+draft: true
 image: "/img/essexbrewery/essexbrewery_thumb.jpg"
 banner: "/img/essexbrewery/essexbrewery_banner.jpg"
 banner-logo: "/img/essexbrewery/essexbrewery_logo.png"
