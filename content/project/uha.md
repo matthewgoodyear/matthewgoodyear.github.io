@@ -1,5 +1,5 @@
 ---
-title: Highlands Village
+title: University Hospital Association
 draft: true
 image: "/img/thyssenkrupp/thyssenkrupp_thumb.jpg"
 weight: 1
@@ -11,14 +11,14 @@ weight: 1
     </div>
     <div class="col-sm-4">
         <h2>
-            Highlands Village
+            University Hospital Association
         </h2>
         <p class="project-description">
             Desicription Here.
             <br><br>
             Studio — <a href="https://www.betterbrandagency.com/" class="better-link" target="_blank">Better Brand Agency</a>
             <br>
-            Client — Metropolitan
+            Client — AUKUH
             <br>
             Creative Director — John Taylor
         </p>
