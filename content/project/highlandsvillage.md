@@ -1,62 +1,26 @@
 ---
-title: "Highlands Village"
-description: ""
+title: Highlands Village
 draft: true
-image: "/img/thyssenkrupp/thyssenkrupp_thumb_alt.jpg"
-hover: ""
-banner: "/"
-banner-logo: "/img/thyssenkrupp/thyssenkrupp_logo.png"
+image: "/img/thyssenkrupp/thyssenkrupp_thumb.jpg"
 weight: 1
 ---
 
 <div class="row">
-    <div class="col-sm-12">
-        <img src="/img/thyssenkrupp/thyssenkrupp_comparison-01.jpg" alt="work" class="media-img project-img">
+    <div class="col-sm-8">
+        <img src="/img/essexbrewery/essexbrewery_full_logo.jpg" alt="work" class="project-img">
     </div>
-</div>
-<h3>Brand Style</h3>
-<hr class="line-no-pad">
-<div class="row">
-    <div class="col-sm-12">
-        <img src="/img/thyssenkrupp/thyssenkrupp_logotype-01.jpg" alt="work" class="media-img project-img">
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm-12">
-        <img src="/img/thyssenkrupp/thyssenkrupp_colour-01.jpg" alt="work" class="media-img project-img">
-    </div>
-</div>
-<p>Type & colour.</p>
-<div class="row">
-    <div class="col-sm-12">
-        <img src="/img/thyssenkrupp/thyssenkrupp_brandstyle.jpg" alt="work" class="media-img project-img">
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm-6">
-        <img src="/img/thyssenkrupp/thyssenkrupp_1.jpg" alt="work" class="media-img project-img">
-    </div>
-    <div class="col-sm-6">
-        <img src="/img/thyssenkrupp/thyssenkrupp_2.jpg" alt="work" class="media-img project-img">
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm-6">
-        <img src="/img/thyssenkrupp/thyssenkrupp_5.jpg" alt="work" class="media-img project-img">
-    </div>
-    <div class="col-sm-6">
-        <img src="/img/thyssenkrupp/thyssenkrupp_4.jpg" alt="work" class="media-img project-img">
-    </div>
-</div>
-<h3>Brand World</h3>
-<hr class="line-no-pad">
-<div class="row">
-    <div class="col-sm-12">
-        <img src="/img/thyssenkrupp/thyssenkrupp_flyer.jpg" alt="work" class="media-img project-img">
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm-12">
-        <img src="/img/thyssenkrupp/thyssenkrupp_businesscard.jpg" alt="work" class="media-img project-img">
+    <div class="col-sm-4">
+        <h2>
+            Highlands Village
+        </h2>
+        <p class="project-description">
+            Desicription Here.
+            <br><br>
+            Studio — <a href="https://www.betterbrandagency.com/" class="better-link" target="_blank">Better Brand Agency</a>
+            <br>
+            Client — Metropolitan
+            <br>
+            Creative Director — John Taylor
+        </p>
     </div>
 </div>

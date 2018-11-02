@@ -27,6 +27,7 @@ body {
     -webkit-font-smoothing: antialiased;
     color: rgba(0, 0, 0, 1);
     background-color: #fff;
+    font-weight: 100;
 }
 
 ::-moz-selection { background-color: black; color: white; }
@@ -67,9 +68,7 @@ hr {
     margin-bottom: 30px;
 }
 .parallax {
-    margin-bottom: 150px;
-    margin-top: 20px;
-    /*margin-left: 60px;*/
+    margin-top: 10px;
 }
 
 .wrapper {
@@ -83,16 +82,12 @@ hr {
     margin: auto;
 }
 
-.main-content-wrapper {
-    max-width: 1200px;
-    margin: auto;
-}
-
 header {
     width: 100%;
     z-index: 100;
-    background-color: #fff;
+    /*background-color: #fff;*/
     padding: 40px 0;
+    /*position: absolute;*/
 }
 
 .header-container {
@@ -112,24 +107,13 @@ header {
 }
 
 p {
-    font-size: 26px;
-    line-height: 40px;
-    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
     font-weight: 400;
     display: block;
-    margin: 100px auto 120px auto;
-    max-width: 70%;
-}
-    p.first {
-        padding-top: 173px;
-        margin-top: 0;
-    }
-
-.first-p {
-    margin: 100px auto 50px auto;
-}
-.second-p {
-    margin: 0px auto 120px auto;
+    margin: 0 20px 120px 20px;
+    color: #aaa;
 }
 
 p a {
@@ -141,7 +125,17 @@ p a:hover {
     color: #aaa;
 }
 
+.project-description {
+    text-align: left;
+    color: #aaa;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0 20px 0 20px;
+    max-width: 90%;
+}
+
 .start-project {
+    font-size: 22px;
     float: right;
     margin-top: 0;
     margin-bottom: 0;
@@ -161,7 +155,7 @@ h1 {
     text-align: center;
     line-height: 54px;
     /*width: 85%;*/
-    margin: 150px auto 0 auto;
+    margin: 150px auto 150px auto;
     display: block;
     transform: translateY(0px);
     letter-spacing: -1;
@@ -175,16 +169,19 @@ h1 {
         border-bottom: 1px solid;
     }
 
+.project-title {
+    text-align: left;
+    margin: 0 0 0 0;
+}
+
 h2 {
-    font-size: 25px;
-    font-weight: 400;
-    text-align: center;
-    color: #aaa;
-    line-height: 48px;
-    width: 85%;
-    margin: 15px auto 150px auto;
-    display: block;
+    font-size: 32px;
+    font-weight: 100;
+    text-align: left;
+    line-height: 34px;
+    margin: 0 10px 20px 20px;
     transform: translateY(0px);
+    letter-spacing: -1;
 }
     h2 a {
         border-bottom: 1px solid rgba(0, 0, 0, 0);
@@ -269,6 +266,11 @@ footer {
     display: block;
     margin-bottom: 15px;
  }
+
+.media-outer {
+    margin-bottom: 40px;
+}
+
 .media-img{
     width: 100%;
     opacity: 1;
@@ -276,7 +278,7 @@ footer {
        -moz-transition: all .3s;
             transition: all .3s;
 }
-.media-img:hover {
+.media-outer:hover .media-img {
     transform: scale(1.03);
 }
 
@@ -300,9 +302,13 @@ footer {
     .media-title {
         text-align: left;
         font-size: 30px;
+        line-height: 40px;
         margin: 0;
-        margin-bottom: 60px;
         max-width: 100%;
+    }
+
+    .media-outer:hover .media-title {
+        color: black;
     }
 
     /*.media-type {
@@ -320,12 +326,12 @@ footer {
 }
 
 .project-banner {
-    background-color: #f2f2f2;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 400px;
-    margin-bottom: 20px;
+    height: 60%;
+    margin-bottom: 60px;
+    margin-top: 0px;
     display: inline-block;
     background-repeat: no-repeat;
     white-space: nowrap;
@@ -356,12 +362,7 @@ vertical-align: middle;
             text-align: center;
         }
 
-    .media-overlay {
-        display: none;
-        visibility: hidden;
-    }
-
-    .media {
+    .media-outer {
         margin-bottom: 10px;
     }
 
@@ -369,8 +370,8 @@ vertical-align: middle;
         padding: 0 15px;
     }
 
-    .col-xs-6 {
-        padding: 5px;
+    .col-sm-8 {
+        margin: auto 10px auto 10px;
     }
 
     .start-project {
@@ -380,11 +381,15 @@ vertical-align: middle;
 
     .project-banner {
         margin-top: 68px;
-        height: 350px;
+        height: 40%;
     }
     .project-banner-logo {
         max-height: 140px;
         max-width: 250px;
+    }
+
+    .project-title {
+        text-align: center;
     }
 
     footer {
@@ -403,17 +408,25 @@ vertical-align: middle;
 
     h1 {
         font-size: 32px;
-        margin: 80px auto 0 auto;
+        margin: 80px auto 80px auto;
+        width: 80%;
         line-height: 35px;
     }
 
     h2 {
-        font-size: 22px;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .project-description {
         margin-bottom: 80px;
+        margin-left: 10px;
     }
 
     .parallax {
+        display: block;
+        margin: auto;
         margin-bottom: 40px;
+        margin-top: 10px;
     }
 
     h1 br {
