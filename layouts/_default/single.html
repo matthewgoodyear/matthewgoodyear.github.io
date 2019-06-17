@@ -1,6 +1,27 @@
 {{ partial "header.html" . }}
 
 <div class="wrapper">
+    <div class="row project-about">
+        <div class="col-sm-6">
+            <h2>
+                {{ $.Param "title" }}
+            </h2>
+        </div>
+        <div class="col-sm-6">
+            <p class="project-description">
+                {{ $.Param "description" }}
+            </p>
+        </div>
+    </div>
+</div>
+
+{{ if isset .Params "banner" }}
+    <div class="project-banner">
+        <img src="{{ .Params.banner }}" alt="work" class="project-img">
+    </div>
+{{ end}}
+
+<div class="wrapper">
     <!-- <div class="intro-wrapper">
         <h1>{{ $.Param "title" }}</h1>
         <hr class="parallax">

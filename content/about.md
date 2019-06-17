@@ -7,11 +7,11 @@ draft: false
 <div class="row">
     <div class="col-sm-8">
         <h1 class="project-title">
-            Hey! I'm Matthew. I have a passion for logo &amp; brand identity design. Since a young age I've always loved being creative, from developing websites and games to having a passion for photography. I studied graphic design at Cleveland College of Art and Design and had work experience at <a href="https://viacreative.co.uk/" target="_blank" class="via-link">Via Creative</a> before joining <a href="https://www.betterbrandagency.com/" class="better-link" target="_blank">Better</a>.
+            I'm Matthew, designer at <a href="https://www.betterbrandagency.com/" class="better-link" target="_blank">Better</a>. I studied graphic design at Cleveland College of Art and Design and had work experience at <a href="https://viacreative.co.uk/" target="_blank" class="via-link">Via Creative</a> before joining <a href="https://www.betterbrandagency.com/" class="better-link" target="_blank">Better</a> in August 2017.
             <br><br>
-            I've been lucky to work alongside experienced designers and be involved in a variety of projects, including logo design, editorial and naming strategy. Read more about my journey <a href="https://www.betterbrandagency.com/blog/2017/11/the-journey-of-a-junior-designer/" target="_blank">here</a>.
+            I've been involved in a variety of projects, including brand identity design, editorial and naming strategy.
             <br><br>
-            Get in touch via <a href="mailto:hello@matthewgoodyear.com">Email</a> or keep up to date with future projects on <a href="https://www.instagram.com/gdy.design/" target="_blank">Instagram</a>.
+            Get in touch via <a href="mailto:hello@matthewgoodyear.com">Email</a> and keep up to date with future projects on <a href="https://www.instagram.com/gdy.design/" target="_blank">Instagram</a>.
         </p>
     </div>
 </div>

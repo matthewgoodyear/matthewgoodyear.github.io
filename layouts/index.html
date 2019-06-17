@@ -2,10 +2,8 @@
 
 <div class="wrapper">
     <h1>
-        I'm Matthew, Junior Designer at
-        <a href="https://www.betterbrandagency.com/" class="better-link" target="_blank">Better</a>.
+        I'm Matthew, Logo & Brand Identity Designer</a>.
     </h1>
-    <!-- <h2><a href="/about">More about me</a></h2> -->
 
     <div class="row">
     {{ range $i, $e := (where .Data.Pages "Section" "project") }}
@@ -14,7 +12,7 @@
                 <div class="media">
                     <img src="{{ .Params.image }}" alt="{{ .Title }}" class="media-img">
                 </div>
-                <p class="media-title">{{ .Title }}</p>
+                <!-- <p class="media-title">{{ .Title }}</p> -->
             </a>
         </div>
     {{ end }}
