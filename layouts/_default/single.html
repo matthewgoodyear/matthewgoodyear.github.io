@@ -1,59 +1,30 @@
 {{ partial "header.html" . }}
 
-<div class="wrapper">
-    <div class="row project-about">
-        <div class="col-sm-6">
-            <h2>
-                {{ $.Param "title" }}
-            </h2>
-        </div>
-        <div class="col-sm-6">
-            <p class="project-description">
-                {{ $.Param "description" }}
-            </p>
-        </div>
-    </div>
-</div>
-
 {{ if isset .Params "banner" }}
-    <div class="project-banner">
-        <img src="{{ .Params.banner }}" alt="work" class="project-img">
-    </div>
+    <div class="project-banner" style="background-image: url({{ $.Param "banner" }});"></div>
 {{ end}}
 
-<div class="wrapper">
-    <!-- <div class="intro-wrapper">
-        <h1>{{ $.Param "title" }}</h1>
-        <hr class="parallax">
-    </div> -->
-    <!-- {{ if isset .Params "banner" }}
-        <div class="project-banner" style="background-image: url({{ $.Param "banner" }}); background-color: {{ $.Param "colour" }};">
-            <span class="helper"></span><img class="project-banner-logo" src="{{ $.Param "banner-logo" }}" style="{{ $.Param "display" }}">
+<div class="white-section">
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-sm-offset-1 col-sm-4">
+                <p class="project-title">
+                    {{ $.Param "title" }}
+                </p>
+            </div>
         </div>
-    {{ end}} -->
-        <!-- <div class="project-banner" style="background-image: url({{ $.Param "banner" }}); background-color: {{ $.Param "colour" }};">
-            <span class="helper"></span><img class="project-banner-logo" src="{{ $.Param "banner-logo" }}" style="{{ $.Param "display" }}">
-        </div> -->
-        <!-- <div class="row">
-            <div class="col-xs-12 col-sm-8">
-                <h1 class="project-title">{{ $.Param "title" }}</h1>
-                <hr class="parallax" align="left">
+        <div class="row">
+            <div class="col-sm-offset-1 col-sm-4">
+                <h1 class="project-intro">
+                    {{ $.Param "intro" }}
+                </h1>
             </div>
-            <div class="col-xs-12 col-sm-4">
-                <p class="project-description">{{ $.Param "description" }}</p>
-            </div>
-        </div> -->
-        <!-- <div class="row">
-            <div class="col-xs-8">
-                <img src="{{ .Params.banner }}" alt="work" class="project-img">
-            </div>
-            <div class="col-xs-4">
-                <h2>{{ $.Param "title" }}</h2>
-                <p class="project-description">{{ $.Param "description" }}</p>
-            </div>
-        </div> -->
+        </div>
+    </div>
 
+    <div class="wrapper">
         {{ .Content }}
+    </div>
 </div>
 
 {{ partial "footer.html" . }}

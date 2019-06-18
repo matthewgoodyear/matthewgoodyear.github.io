@@ -1,8 +1,9 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 draft: true
-image: false
-description: ""
+thumb: false
+banner: false
+intro: ""
 order: 0
+type:
 ---
-
