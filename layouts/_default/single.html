@@ -7,23 +7,30 @@
 <div class="white-section">
     <div class="wrapper">
         <div class="row">
-            <div class="col-sm-offset-1 col-sm-4">
+            <div class="col-sm-offset-1 col-sm-5">
                 <p class="project-title">
                     {{ $.Param "title" }}
                 </p>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-offset-1 col-sm-4">
+            <div class="col-sm-offset-1 col-sm-5">
                 <h1 class="project-intro">
                     {{ $.Param "intro" }}
                 </h1>
             </div>
         </div>
-    </div>
 
-    <div class="wrapper">
         {{ .Content }}
+
+        <div class="row end-sm">
+            <div class="col-sm-6">
+                <a href="{{ $.Site.BaseURL }}" class="large-link large-link-black">
+                    <div class="link-title">Back to work</div>
+                    <div class="dash"></div>
+                </a>
+            </div>
+        </div>
     </div>
 </div>
 
