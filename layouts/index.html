@@ -2,19 +2,22 @@
 
 <div class="wrapper">
     <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-12">
             <h1>
-                I'm Matthew,<br>Logo & Brand Identity Designer<br>based in Middlesbrough.
+                Big ideas with<br>a bigger impact
             </h1>
         </div>
     </div>
 
     <div class="row">
-    {{ range $i, $e := (where .Data.Pages "Section" "project") }}
+    {{ range first 4 (where .Data.Pages "Section" "work") }}
         <div class="col-sm-6 col-xs-12 media-outer">
             <a href="{{ .Permalink }}">
                 <div class="media">
                     <img src="{{ .Params.thumb }}" alt="{{ .Title }}" class="media-img">
+                    <div class="media-overlay">
+                        <p class="media-title">{{ .Title }}</p>
+                    </div>
                 </div>
             </a>
         </div>
@@ -22,8 +25,8 @@
     </div>
     <div class="row end-sm">
         <div class="col-sm-6">
-            <a href="/logofolio" class="large-link">
-                <div class="link-title">View logofolio</div>
+            <a href="/work" class="large-link">
+                <div class="link-title">View all work</div>
                 <div class="dash"></div>
             </a>
         </div>

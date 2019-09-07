@@ -1,7 +1,7 @@
     <footer>
-        <div class="header-container">
+        <div class="wrapper">
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-sm-6">
                     <h2>Starting a new project?<br>Get in touch for a chat.</h2>
                 </div>
@@ -10,7 +10,7 @@
                         <a href="mailto:hello@matthewgoodyear.com">Request portfolio <span>⟶</span></a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="row">
                 <div class="col-xs-6">
@@ -21,7 +21,7 @@
                     <ul class="footer-links">
                         <li><a class="link-line-hide link-line-grey" href="mailto:hello@matthewgoodyear.com">Email</a></li>
                         <li><a class="link-line-hide link-line-grey" href="https://www.instagram.com/gdy.design/">Instagram</a></li>
-                        <li><a class="link-line-hide link-line-grey" href="/">Archive</a></li>
+                        <li><a class="link-line-hide link-line-grey" href="/work">Logofolio</a></li>
                     </ul>
                 </div>
 
@@ -34,10 +34,39 @@
     </footer>
 
     <script>
+        var projectSection = document.querySelector('.filter-section-projects');
+        var logofolioSection = document.querySelector('.filter-section-logofolio');
+        var logofolioButton = document.querySelector('.logofolio-button');
+        var projectButton = document.querySelector('.project-button');
+
         function topFunction() {
             document.body.scrollTop = 0; // For Safari
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
+
+        function filterLogofolio() {
+            if (logofolioSection.classList.contains('filter-section-hide')) {
+                projectSection.classList.add('filter-section-hide');
+                logofolioSection.classList.remove('filter-section-hide');
+
+                logofolioButton.classList.add('filter-button-active');
+                projectButton.classList.remove('filter-button-active');
+            }
+        }
+
+        function filterProjects() {
+            if (projectSection.classList.contains('filter-section-hide')) {
+                logofolioSection.classList.add('filter-section-hide');
+                projectSection.classList.remove('filter-section-hide');
+
+                projectButton.classList.add('filter-button-active');
+                logofolioButton.classList.remove('filter-button-active')
+            }
+        }
+
+        projectButton.addEventListener('click', filterProjects);
+        logofolioButton.addEventListener('click', filterLogofolio);
+
     </script>
 
     <!-- <script>

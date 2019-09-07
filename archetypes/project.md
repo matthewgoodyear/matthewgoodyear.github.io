@@ -5,5 +5,4 @@ thumb: false
 banner: false
 intro: ""
 order: 0
-type:
 ---

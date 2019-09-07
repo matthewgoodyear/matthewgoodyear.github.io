@@ -1,11 +1,11 @@
 {{ partial "header.html" . }}
 
-{{ if isset .Params "banner" }}
-    <div class="project-banner" style="background-image: url({{ $.Param "banner" }});"></div>
-{{ end}}
-
-<div class="white-section">
+<div>
     <div class="wrapper">
+        {{ if isset .Params "banner" }}
+            <div class="project-banner" style="background-image: url({{ $.Param "banner" }});"></div>
+        {{ end }}
+
         <div class="row">
             <div class="col-sm-offset-1 col-sm-5">
                 <p class="project-title">
@@ -14,10 +14,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-offset-1 col-sm-5">
-                <h1 class="project-intro">
+            <div class="col-sm-offset-1 col-sm-6">
+                <h2 class="project-intro">
                     {{ $.Param "intro" }}
-                </h1>
+                </h2>
             </div>
         </div>
 
@@ -25,10 +25,17 @@
 
         <div class="row end-sm">
             <div class="col-sm-6">
-                <a href="{{ $.Site.BaseURL }}" class="large-link large-link-black">
-                    <div class="link-title">Back to work</div>
-                    <div class="dash"></div>
-                </a>
+                {{ if .PrevInSection }}
+                    <a href="{{.PrevInSection.Permalink}}" class="large-link large-link-black">
+                        <div class="link-title">{{.PrevInSection.Title}}</div>
+                        <div class="dash"></div>
+                    </a>
+                {{ else }}
+                    <a href="/work" class="large-link large-link-black">
+                        <div class="link-title">Back to work</div>
+                        <div class="dash"></div>
+                    </a>
+                {{ end }}
             </div>
         </div>
     </div>

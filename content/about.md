@@ -1,5 +1,7 @@
 ---
+title: "Approach"
 draft: false
-image: false
 type: "about"
+menu: "main"
+weight: 2
 ---

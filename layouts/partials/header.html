@@ -31,19 +31,29 @@
 
 <body>
     <header>
-        <div class="header-container">
+        <div class="wrapper">
             <div class="row">
                 <div class="col-sm-6 col-xs-2">
                     <a class="logo-link" href="{{ $.Site.BaseURL }}">
-                        <img src="{{ $.Site.BaseURL }}img/MG_Logo_Icon_White@0.5x.png" alt="Logo" class="logo-img">
+                        <img src="{{ $.Site.BaseURL }}img/MG_Logo_Icon_Black@0.5x.png" alt="Logo" class="logo-img">
                     </a>
                 </div>
                 <div class="col-sm-6 col-xs-10">
-                    <ul class="navigation">
+                    <!-- <ul class="navigation">
                         <li><a class="link-line-show" href="{{ $.Site.BaseURL }}">Work</a></li>
                         <li><a class="link-line-show" href="/logofolio">Logofolio</a></li>
                         <li><a class="link-line-show" href="/about">About</a></li>
                         <li><a class="link-line-show" href="mailto:hello@matthewgoodyear.com">Contact</a></li>
+                    </ul> -->
+
+                    <ul class="navigation">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.main }}
+
+                        <li class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
+                            <a class="link-line-show" href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
                     </ul>
                 </div>
             </div>
