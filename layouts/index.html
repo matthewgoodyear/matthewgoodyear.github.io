@@ -1,36 +1,14 @@
-{{ partial "header.html" . }}
+{{ partial "header-light.html" . }}
+
+<div class="fullscreen-image"></div>
+<div class="image-overlay"></div>
 
 <div class="wrapper">
-    <div class="row">
-        <div class="col-sm-12">
-            <h1>
-                Big ideas with<br>a bigger impact
-            </h1>
-        </div>
-    </div>
-
-    <div class="row">
-    {{ range first 4 (where .Data.Pages "Section" "work") }}
-        <div class="col-sm-6 col-xs-12 media-outer">
-            <a href="{{ .Permalink }}">
-                <div class="media">
-                    <img src="{{ .Params.thumb }}" alt="{{ .Title }}" class="media-img">
-                    <div class="media-overlay">
-                        <p class="media-title">{{ .Title }}</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    {{ end }}
-    </div>
-    <div class="row end-sm">
-        <div class="col-sm-6">
-            <a href="/work" class="large-link">
-                <div class="link-title">View all work</div>
-                <div class="dash"></div>
-            </a>
+    <div class="row end-xs">
+        <div class="col-xs-4">
+            <h1>North East based Graphic Designer specialising in Logo & Brand Identity, currently working at Better.</h1>
         </div>
     </div>
 </div>
 
-{{ partial "footer.html" . }}
+{{ partial "footer-light.html" . }}

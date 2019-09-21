@@ -1,5 +1,5 @@
 ---
-title: "Approach"
+title: "Info"
 draft: false
 type: "about"
 menu: "main"

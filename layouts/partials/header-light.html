@@ -30,7 +30,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="white-header">
         <div class="wrapper">
             <div class="row">
                 <div class="col-sm-8 col-xs-2">
@@ -46,7 +46,7 @@
                             {{ range .Site.Menus.main }}
                             <div class="col-xs-6">
                                 <li class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
-                                    <a href="{{ .URL }}">{{ .Name }}</a>
+                                    <a class="link-line-show" href="{{ .URL }}">{{ .Name }}</a>
                                 </li>
                             </div>
                             {{ end }}
