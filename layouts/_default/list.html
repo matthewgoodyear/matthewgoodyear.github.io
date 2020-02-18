@@ -4,96 +4,38 @@
 
 <div>
     <div class="wrapper">
-        <!-- <ul class="work-filter-nav">
-            <li><a class="logofolio-button filter-button-active">Logofolio</a></li>
-            <li><a class="project-button">Projects</a></li>
-        </ul> -->
-
-        <div class="row end-xs">
-            <div class="col-xs-4">
-                <h1 class="dark">Logos created for various clients of Better Brand Agency.</h1>
+        <div class="row">
+            <div class="col-xs-10 col-sm-offset-8 col-sm-4">
+                <h1>North East based Graphic Designer specialising in Logo & Brand Identity, currently working at Better.</h1>
             </div>
         </div>
 
-        <div class="filter-section-logofolio">
-            <div class="row">
-                <div class="col-sm-4 col-xs-6 work-outer">
-                    <a href="https://new.better.agency/">
-                        <div class="work">
-                            <img src="/img/logofolio/visualsoft_logo.jpg" alt="work" class="work-img">
-                            <img src="/img/logofolio/visualsoft_hover.jpg" alt="work" class="work-img work-hover">
-                        </div>
-                        <p class="work-title">Visualsoft</p>
-                    </a>
-                </div>
-                <div class="col-sm-4 col-xs-6 work-outer">
-                    <a href="https://new.better.agency/blog/part-of-the-team/">
-                        <div class="work">
-                            <img src="/img/logofolio/kader_logo.jpg" alt="work" class="work-img">
-                            <img src="/img/logofolio/kader_hover.jpg" alt="work" class="work-img work-hover">
-                        </div>
-                        <p>Kader Football Club</p>
-                    </a>
-                </div>
-                <div class="col-sm-4 col-xs-6 work-outer">
-                    <a href="https://new.better.agency/work/university-hospitals-association/">
-                        <div class="work">
-                            <img src="/img/logofolio/uha_logo.jpg" alt="work" class="work-img">
-                            <img src="/img/logofolio/uha_hover_alt_2.jpg" alt="work" class="work-img work-hover">
-                        </div>
-                        <p>University Hospital Association</p>
-                    </a>
-                </div>
-                <div class="col-sm-4 col-xs-6 work-outer">
-                    <a href="https://new.better.agency/work/essex-brewery/">
-                        <div class="work">
-                            <img src="/img/logofolio/essex_logo.jpg" alt="work" class="work-img">
-                            <img src="/img/logofolio/essex_hover.jpg" alt="work" class="work-img work-hover">
-                        </div>
-                        <p>Essex Brewery</p>
-                    </a>
-                </div>
-                <div class="col-sm-4 col-xs-6 work-outer">
-                    <a href="https://new.better.agency/">
-                        <div class="work">
-                            <img src="/img/logofolio/definition_logo.jpg" alt="work" class="work-img">
-                            <img src="/img/logofolio/definition_hover.jpg" alt="work" class="work-img work-hover">
-                        </div>
-                        <p>Definition</p>
-                    </a>
-                </div>
-                <div class="col-sm-4 col-xs-6 work-outer">
-                    <a href="https://new.better.agency/">
-                        <div class="work">
-                            <img src="/img/logofolio/highlands_logo.jpg" alt="work" class="work-img">
-                            <img src="/img/logofolio/highlands_hover.jpg" alt="work" class="work-img work-hover">
-                        </div>
-                        <p>Highlands Village</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="filter-section-projects filter-section-hide">
-            <div class="row">
-            {{ range $i, $e := (where .Data.Pages "Section" "work") }}
-                <div class="col-sm-6 col-xs-12 media-outer">
-                    <a href="{{ .Permalink }}">
-                        <div class="media">
-                            <img src="{{ .Params.thumb }}" alt="{{ .Title }}" class="media-img">
-                            <div class="media-overlay">
+        <div class="row media-container">
+        {{ range $i, $e := (where .Data.Pages "Section" "work") }}
+            <div class="col-sm-4 col-xs-12 media-outer">
+                <a href="{{ .Permalink }}">
+                    <div class="media">
+                        <img src="{{ .Params.thumb }}" alt="{{ .Title }}" class="media-img">
+                    </div>
+                    <div class="box">
+                        <div class="row">
+                            <div class="col-xs-6">
                                 <p class="media-title">{{ .Title }}</p>
                             </div>
+                            <div class="col-xs-6">
+                                <p class="media-type">{{ .Type }}</p>
+                            </div>
                         </div>
-                    </a>
-                </div>
-            {{ end }}
+                    </div>
+
+                </a>
             </div>
+        {{ end }}
         </div>
 
         <div class="row end-sm">
             <div class="col-sm-4">
-                <a href="/about" class="large-link large-link-black">
+                <a href="/about" class="large-link">
                     <div class="link-title">Profile & Index</div>
                     <div class="dash"></div>
                 </a>

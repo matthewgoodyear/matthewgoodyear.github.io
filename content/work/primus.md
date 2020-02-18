@@ -1,10 +1,11 @@
 ---
 title: "Primus"
-intro: "Typeface coming soon."
+type: "Typeface"
+intro: "A first personal experiment into the world of type design."
+extra: "Coming soon."
 draft: false
 thumb: "/img/primus/primus_thumb.jpg"
-banner: "/img/primus/primus_header.jpg"
-weight: 2
+weight: 5
 ---
 <div class="row">
     <div class="col-xs-12">

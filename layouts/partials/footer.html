@@ -6,11 +6,11 @@
                 </div>
 
                 <div class="col-xs-2">
-                    <p>Insta<span>(at)</span><br>gdy.design</p>
+                    <p class="footer-link"><a href="www.instagram.com/gdy.design">Insta</a></p>
                 </div>
 
                 <div class="col-xs-2">
-                    <p>hello<span>(at)</span><br>goodyear.design</p>
+                    <p class="footer-link"><a href="mailto:hello@matthewgoodyear.com">Email</a></p>
                 </div>
             </div>
         </div>
@@ -38,28 +38,44 @@
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
 
-        function filterLogofolio() {
-            if (logofolioSection.classList.contains('filter-section-hide')) {
-                projectSection.classList.add('filter-section-hide');
-                logofolioSection.classList.remove('filter-section-hide');
+        var myIndex = 0;
+    carousel();
 
-                logofolioButton.classList.add('filter-button-active');
-                projectButton.classList.remove('filter-button-active');
-            }
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("slides");
+
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
         }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 4000); // Change image every 2 seconds
+    }
 
-        function filterProjects() {
-            if (projectSection.classList.contains('filter-section-hide')) {
-                logofolioSection.classList.add('filter-section-hide');
-                projectSection.classList.remove('filter-section-hide');
-
-                projectButton.classList.add('filter-button-active');
-                logofolioButton.classList.remove('filter-button-active')
-            }
-        }
-
-        projectButton.addEventListener('click', filterProjects);
-        logofolioButton.addEventListener('click', filterLogofolio);
+        // function filterLogofolio() {
+        //     if (logofolioSection.classList.contains('filter-section-hide')) {
+        //         projectSection.classList.add('filter-section-hide');
+        //         logofolioSection.classList.remove('filter-section-hide');
+        //
+        //         logofolioButton.classList.add('filter-button-active');
+        //         projectButton.classList.remove('filter-button-active');
+        //     }
+        // }
+        //
+        // function filterProjects() {
+        //     if (projectSection.classList.contains('filter-section-hide')) {
+        //         logofolioSection.classList.add('filter-section-hide');
+        //         projectSection.classList.remove('filter-section-hide');
+        //
+        //         projectButton.classList.add('filter-button-active');
+        //         logofolioButton.classList.remove('filter-button-active')
+        //     }
+        // }
+        //
+        // projectButton.addEventListener('click', filterProjects);
+        // logofolioButton.addEventListener('click', filterLogofolio);
     </script>
 </body>
 </html>

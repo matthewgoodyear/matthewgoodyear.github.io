@@ -1,14 +1,28 @@
-{{ partial "header-light.html" . }}
-
-<div class="fullscreen-image"></div>
-<div class="image-overlay"></div>
+{{ partial "header.html" . }}
 
 <div class="wrapper">
-    <div class="row end-xs">
-        <div class="col-xs-4">
+    <div class="row">
+        <div class="col-xs-12 col-sm-offset-8 col-sm-4">
             <h1>North East based Graphic Designer specialising in Logo & Brand Identity, currently working at Better.</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <img src="/img/kinnery/kinnery_cards2.jpg" alt="project-img" class="project-img slides fade">
+            <img src="/img/essex/essex_spread2.jpg" alt="project-img" class="project-img slides fade">
+            <img src="/img/kader/kader_pitch.jpg" alt="project-img" class="project-img slides fade">
+        </div>
+    </div>
+
+    <div class="row end-sm">
+        <div class="col-xs-12 col-sm-4">
+            <a href="/work" class="large-link">
+                <div class="link-title">View work</div>
+                <div class="dash"></div>
+            </a>
         </div>
     </div>
 </div>
 
-{{ partial "footer-light.html" . }}
+{{ partial "footer.html" . }}
