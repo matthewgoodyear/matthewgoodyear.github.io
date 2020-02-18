@@ -3,7 +3,7 @@ title: "Essex Brewery"
 type: "Brand Identity"
 intro: "Identity design for a housing redevelopment, set on a former brewery site in East London."
 extra: "Created with the team at Better."
-draft: false
+draft: true
 thumb: "/img/essex/essex_thumb.jpg"
 weight: 3
 ---

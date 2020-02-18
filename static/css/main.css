@@ -382,9 +382,9 @@ p.project-intro-extra {
     position: absolute;
     left: calc(100% - 60px);
     margin-top: 18px;
-    -webkit-transition: all .3s ease-in-out;
-       -moz-transition: all .3s ease-in-out;
-            transition: all .3s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+       -moz-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
 }
 
 .large-link {

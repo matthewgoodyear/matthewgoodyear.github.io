@@ -3,7 +3,7 @@ title: "Definition"
 type: "Brand Identity"
 intro: "Re-branding Acceleris and Limelight after their merger, to bring unity to their new organisation."
 extra: "Created with the team at Better."
-draft: false
+draft: true
 thumb: "/img/definition/definition_thumb.jpg"
 weight: 6
 ---

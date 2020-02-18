@@ -3,7 +3,7 @@ title: "Kinnery"
 type: "Brand Identity"
 intro: "Elevating Ian Kinnery's identity to better convey his wealth of knowledge and experience as a business coach."
 extra: "Created with the team at Better."
-draft: false
+draft: true
 thumb: "/img/kinnery/kinnery_thumb.jpg"
 weight: 1
 ---
