@@ -1,38 +1,41 @@
 {{ partial "header.html" . }}
 
-<div class="wrapper">
-    <!-- <div class="intro-wrapper">
-        <h1>{{ $.Param "title" }}</h1>
-        <hr class="parallax">
-    </div> -->
-    <!-- {{ if isset .Params "banner" }}
-        <div class="project-banner" style="background-image: url({{ $.Param "banner" }}); background-color: {{ $.Param "colour" }};">
-            <span class="helper"></span><img class="project-banner-logo" src="{{ $.Param "banner-logo" }}" style="{{ $.Param "display" }}">
-        </div>
-    {{ end}} -->
-        <!-- <div class="project-banner" style="background-image: url({{ $.Param "banner" }}); background-color: {{ $.Param "colour" }};">
-            <span class="helper"></span><img class="project-banner-logo" src="{{ $.Param "banner-logo" }}" style="{{ $.Param "display" }}">
-        </div> -->
-        <!-- <div class="row">
+<div>
+    <div class="wrapper">
+        <div class="row project-info-container">
             <div class="col-xs-12 col-sm-8">
-                <h1 class="project-title">{{ $.Param "title" }}</h1>
-                <hr class="parallax" align="left">
+                <h1 class="project-title">
+                    {{ $.Param "title" }}
+                </h1>
             </div>
             <div class="col-xs-12 col-sm-4">
-                <p class="project-description">{{ $.Param "description" }}</p>
+                <h2 class="project-intro">
+                    {{ $.Param "intro" }}
+                </h2>
+                <p class="project-intro-extra">
+                    {{ $.Param "extra" }}
+                </p>
             </div>
-        </div> -->
-        <!-- <div class="row">
-            <div class="col-xs-8">
-                <img src="{{ .Params.banner }}" alt="work" class="project-img">
-            </div>
-            <div class="col-xs-4">
-                <h2>{{ $.Param "title" }}</h2>
-                <p class="project-description">{{ $.Param "description" }}</p>
-            </div>
-        </div> -->
+        </div>
 
         {{ .Content }}
+
+        <div class="row end-sm">
+            <div class="col-xs-12 col-sm-4">
+                {{ if .PrevInSection }}
+                    <a href="{{.PrevInSection.Permalink}}" class="large-link">
+                        <div class="link-title">Next: {{.PrevInSection.Title}}</div>
+                        <div class="dash"></div>
+                    </a>
+                {{ else }}
+                    <a href="/work" class="large-link">
+                        <div class="link-title">Back to work</div>
+                        <div class="dash"></div>
+                    </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
 </div>
 
 {{ partial "footer.html" . }}

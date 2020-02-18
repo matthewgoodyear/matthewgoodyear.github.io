@@ -1,23 +1,28 @@
 {{ partial "header.html" . }}
 
 <div class="wrapper">
-    <h1>
-        I'm Matthew, Junior Designer at
-        <a href="https://www.betterbrandagency.com/" class="better-link" target="_blank">Better</a>.
-    </h1>
-    <!-- <h2><a href="/about">More about me</a></h2> -->
+    <div class="row">
+        <div class="col-xs-12 col-sm-offset-8 col-sm-4">
+            <h1>North East based Graphic Designer specialising in Logo & Brand Identity, currently working at Better.</h1>
+        </div>
+    </div>
 
     <div class="row">
-    {{ range $i, $e := (where .Data.Pages "Section" "project") }}
-        <div class="col-sm-6 col-xs-12 media-outer">
-            <a href="{{ .Permalink }}">
-                <div class="media">
-                    <img src="{{ .Params.image }}" alt="{{ .Title }}" class="media-img">
-                </div>
-                <p class="media-title">{{ .Title }}</p>
+        <div class="col-xs-12">
+            <img src="/img/kinnery/kinnery_cards2.jpg" alt="project-img" class="project-img slides fade">
+            <img src="/img/essex/essex_spread2.jpg" alt="project-img" class="project-img slides fade">
+            <img src="/img/kader/kader_pitch.jpg" alt="project-img" class="project-img slides fade">
+        </div>
+    </div>
+
+    <div class="row end-sm">
+        <div class="col-xs-12 col-sm-4">
+            <a href="/work" class="large-link">
+                <div class="link-title">View work</div>
+                <div class="dash"></div>
             </a>
         </div>
-    {{ end }}
     </div>
 </div>
+
 {{ partial "footer.html" . }}

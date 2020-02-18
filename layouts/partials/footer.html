@@ -1,49 +1,81 @@
     <footer>
-        <ul class="links">
-            <li><a href="/about">About</a></li><!--
-         --><li><a href="https://www.instagram.com/gdy.design/" target="_blank">Instagram</a></li><!--
-         --><li><a href="mailto:hello@matthewgoodyear.com">Email</a></li><!--
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-xs-8">
+                    <p>&copy; 2019</p>
+                </div>
 
-     --></ul>
-        <p class="copyright">&copy; Matthew Goodyear 2018</p>
+                <div class="col-xs-2">
+                    <p class="footer-link"><a href="www.instagram.com/gdy.design">Insta</a></p>
+                </div>
+
+                <div class="col-xs-2">
+                    <p class="footer-link"><a href="mailto:hello@matthewgoodyear.com">Email</a></p>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <!-- <script>
-        (function() {
-            function setOpacity(element, opacity) {
-                if (!element) return;
+    <script>
+        var projectSection = document.querySelector('.filter-section-projects');
+        var logofolioSection = document.querySelector('.filter-section-logofolio');
+        var logofolioButton = document.querySelector('.logofolio-button');
+        var projectButton = document.querySelector('.project-button');
+        var bodyHeight = document.body.scrollHeight;
+        var viewportHeight = window.innerHeight;
+        var footer = document.querySelector('footer');
 
-                element.style.opacity = opacity;
-            }
+        console.log(bodyHeight);
+        console.log(viewportHeight);
 
-            function setTrans(element, newTrans) {
-                if (!element) return;
+        if (bodyHeight <= viewportHeight) {
+            console.log(viewportHeight);
+            footer.classList.add('fix-footer');
+        }
 
-                element.style.transform = "translateY("+newTrans+"px)";
-                console.log(newTrans);
-            }
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
 
-            window.addEventListener('scroll', function() {
-                var heading = document.getElementsByTagName('h1')[0];
-                var line = document.querySelector('.parallax');
-                var subHeading = document.getElementsByTagName('h2')[0];
+        var myIndex = 0;
+    carousel();
 
-                var newOpacity = (300 - window.scrollY) / 300;
-                var newTranslation = (window.scrollY / 5);
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("slides");
 
-                if (newOpacity < 0.3) {
-                    newOpacity = 0.3
-                }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 4000); // Change image every 2 seconds
+    }
 
-                setOpacity(heading, newOpacity)
-                setOpacity(line, newOpacity)
-                setOpacity(subHeading, newOpacity)
-
-                setTrans(heading, newTranslation)
-                setTrans(line, newTranslation)
-                setTrans(subHeading, newTranslation)
-            });
-        })();
-    </script> -->
+        // function filterLogofolio() {
+        //     if (logofolioSection.classList.contains('filter-section-hide')) {
+        //         projectSection.classList.add('filter-section-hide');
+        //         logofolioSection.classList.remove('filter-section-hide');
+        //
+        //         logofolioButton.classList.add('filter-button-active');
+        //         projectButton.classList.remove('filter-button-active');
+        //     }
+        // }
+        //
+        // function filterProjects() {
+        //     if (projectSection.classList.contains('filter-section-hide')) {
+        //         logofolioSection.classList.add('filter-section-hide');
+        //         projectSection.classList.remove('filter-section-hide');
+        //
+        //         projectButton.classList.add('filter-button-active');
+        //         logofolioButton.classList.remove('filter-button-active')
+        //     }
+        // }
+        //
+        // projectButton.addEventListener('click', filterProjects);
+        // logofolioButton.addEventListener('click', filterLogofolio);
+    </script>
 </body>
 </html>

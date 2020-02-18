@@ -1,0 +1,47 @@
+{{ partial "header.html" . }}
+
+<div class="work-background"></div>
+
+<div>
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-xs-10 col-sm-offset-8 col-sm-4">
+                <h1>North East based Graphic Designer specialising in Logo & Brand Identity, currently working at Better.</h1>
+            </div>
+        </div>
+
+        <div class="row media-container">
+        {{ range $i, $e := (where .Data.Pages "Section" "work") }}
+            <div class="col-sm-4 col-xs-12 media-outer">
+                <a href="{{ .Permalink }}">
+                    <div class="media">
+                        <img src="{{ .Params.thumb }}" alt="{{ .Title }}" class="media-img">
+                    </div>
+                    <div class="box">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <p class="media-title">{{ .Title }}</p>
+                            </div>
+                            <div class="col-xs-6">
+                                <p class="media-type">{{ .Type }}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+        {{ end }}
+        </div>
+
+        <div class="row end-sm">
+            <div class="col-sm-4">
+                <a href="/about" class="large-link">
+                    <div class="link-title">Profile & Index</div>
+                    <div class="dash"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ partial "footer.html" . }}
