@@ -3,7 +3,7 @@ title: "UHA"
 type: "Brand Identity"
 intro: "A strikingly bold and authoritative identity to give university hospitals a distinctive voice."
 extra: "Created with the team at Better."
-draft: false
+draft: true
 thumb: "/img/uha/uha_thumb.jpg"
 weight: 2
 ---
