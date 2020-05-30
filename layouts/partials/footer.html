@@ -1,81 +1,90 @@
     <footer>
         <div class="wrapper">
             <div class="row">
+                <div class="col-xs-4 col-sm-8">
+                    <p>&copy; <span>Matthew Goodyear</span> 2020</p>
+                </div>
+                <div class="col-xs-8 col-sm-4">
+                    <ul class="navigation footer-nav">
+                        <li class="">
+                            <a href="https://www.instagram.com/gdy.design/">Instagram</a>
+                        </li>
+                        <li class="">
+                            <a href="mailto:hello@matthewgoodyear.com">Email</a>
+                        </li>
+                        <span><li class="">
+                            <a href="#">Back up</a>
+                        </li></span>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- <p>&copy; Matthew Goodyear 2020</p>
+
+            <ul class="navigation">
+                <li class="">
+                    <a href="">Instagram</a>
+                </li>
+                <li class="">
+                    <a href="">Email</a>
+                </li>
+                <li class="">
+                    <a href="">Redbubble</a>
+                </li>
+            </ul> -->
+
+            <!-- <div class="row">
                 <div class="col-xs-8">
                     <p>&copy; 2019</p>
                 </div>
 
                 <div class="col-xs-2">
-                    <p class="footer-link"><a href="www.instagram.com/gdy.design">Insta</a></p>
+                    <p class="footer-link"><a href="https://www.instagram.com/gdy.design/">Instagram</a></p>
                 </div>
 
                 <div class="col-xs-2">
                     <p class="footer-link"><a href="mailto:hello@matthewgoodyear.com">Email</a></p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </footer>
 
     <script>
-        var projectSection = document.querySelector('.filter-section-projects');
-        var logofolioSection = document.querySelector('.filter-section-logofolio');
-        var logofolioButton = document.querySelector('.logofolio-button');
-        var projectButton = document.querySelector('.project-button');
-        var bodyHeight = document.body.scrollHeight;
-        var viewportHeight = window.innerHeight;
-        var footer = document.querySelector('footer');
-
-        console.log(bodyHeight);
-        console.log(viewportHeight);
-
-        if (bodyHeight <= viewportHeight) {
-            console.log(viewportHeight);
-            footer.classList.add('fix-footer');
-        }
-
-        function topFunction() {
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-        }
-
         var myIndex = 0;
-    carousel();
+        carousel();
 
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("slides");
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slides");
 
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 3000);
         }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}
-        x[myIndex-1].style.display = "block";
-        setTimeout(carousel, 4000); // Change image every 2 seconds
-    }
 
-        // function filterLogofolio() {
-        //     if (logofolioSection.classList.contains('filter-section-hide')) {
-        //         projectSection.classList.add('filter-section-hide');
-        //         logofolioSection.classList.remove('filter-section-hide');
-        //
-        //         logofolioButton.classList.add('filter-button-active');
-        //         projectButton.classList.remove('filter-button-active');
-        //     }
-        // }
-        //
-        // function filterProjects() {
-        //     if (projectSection.classList.contains('filter-section-hide')) {
-        //         logofolioSection.classList.add('filter-section-hide');
-        //         projectSection.classList.remove('filter-section-hide');
-        //
-        //         projectButton.classList.add('filter-button-active');
-        //         logofolioButton.classList.remove('filter-button-active')
-        //     }
-        // }
-        //
-        // projectButton.addEventListener('click', filterProjects);
-        // logofolioButton.addEventListener('click', filterLogofolio);
+        function showInfo() {
+            var infoButton = document.querySelector(".archive-shop-info-button a");
+            var info = document.querySelector(".archive-shop-info");
+
+            if (info.style.visibility === "visible") {
+                info.style.visibility = "hidden";
+                info.style.display = "none";
+                infoButton.innerHTML = "+ More Information";
+            } else {
+                info.style.visibility = "visible";
+                info.style.display = "flex";
+                infoButton.innerHTML = "- Hide Information";
+            }
+
+        }
     </script>
 </body>
 </html>

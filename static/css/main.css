@@ -38,13 +38,22 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Relative Book';
+  src:  url('../fonts/relative/Relative-Book.woff') format('woff'),
+        url('../fonts/relative/Relative-Book.woff2') format('woff2'),
+        url('../fonts/relative/Relative-Book.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
 
 /* General
 -------------------------------------------------------------------------------------------------- */
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Config-Light', sans-serif;
+    font-family: 'Relative Book', sans-serif;
     -webkit-font-smoothing: antialiased;
     color: rgba(0, 0, 0, 1);
     background-color: #f8f8f8;
@@ -73,10 +82,14 @@ a {
             transition: all .18s ease-in-out;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 p {
-    font-family: 'Config-Light', sans-serif;
-    font-size: 20px;
-    line-height: 24px;
+    font-family: 'Relative Book', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
     text-align: left;
     display: block;
     margin: 0;
@@ -84,30 +97,30 @@ p {
 }
 
 h1 {
-    text-align: left;
+    text-align: center;
     margin: 0;
-    margin-top: 60px;
-    margin-bottom: 40px;
-    font-size: 26px;
-    line-height: 30px;
-    font-family: 'ConfigAlt-Light', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    font-size: 50px;
+    line-height: 56px;
+    font-family: 'Relative Book', sans-serif;
     font-weight: 300;
     display: block;
     color: #000;
 }
 
 h2 {
-    font-family: 'ConfigAlt-Light', sans-serif;
+    font-family: 'Relative Book', sans-serif;
     font-size: 26px;
     margin-top: 0;
     line-height: 30px;
-    text-align: left;
+    text-align: center;
     font-weight: 300;
     margin-bottom: 30px;
 }
 
 h3 {
-    font-family: 'ConfigAlt-Light', sans-serif;
+    font-family: 'Relative Book', sans-serif;
     font-size: 26px;
     margin-top: 60px;
     line-height: 30px;
@@ -117,14 +130,13 @@ h3 {
 }
 
 h4 {
-
     font-weight: 300;
-    font-size: 30px;
+    font-size: 26px;
     text-align: left;
     line-height: 42px;
-    margin: 120px 0 30px 0;
+    margin: 0;
+    margin-bottom: 20px;
 }
-
 
 
 
@@ -137,18 +149,18 @@ header {
 }
 
 .navigation {
-   width: 100%;
+   float: right;
    font-size: 20px;
-   text-align: left;
    list-style: none;
    padding: 0;
    margin: 0;
-   display: inline-block;
-   font-family: 'ConfigAlt-Light', sans-serif;
 }
    .navigation li, .footer-link {
        display: inline-block;
        position: relative;
+   }
+   .navigation li {
+       margin-left: 60px;
    }
    .navigation li a {
        color: rgba(0, 0, 0, 1);
@@ -185,21 +197,21 @@ header {
 }
 
 .logo-link {
-    font-family: 'ConfigAlt-Light', sans-serif;
+    font-family: 'Relative Book', sans-serif;
     display: inline-block;
     font-size: 20px;
-    word-spacing: 4px;
+    /*word-spacing: 4px;*/
 }
-    .logo-link span {
+    /*.logo-link span {
         opacity: 0;
         -webkit-transition: opacity .2s ease-in-out;
            -moz-transition: opacity .2s ease-in-out;
                 transition: opacity .2s ease-in-out;
-    }
+    }*/
 
-.logo-link:hover span {
+/*.logo-link:hover span {
     opacity: 1;
-}
+}*/
 
 
 /* Footer
@@ -209,20 +221,30 @@ footer {
     width: 100%;
     padding: 0 0 20px 0;
     color: rgba(0, 0, 0);
-    font-family: 'Config-Regular', sans-serif;
+    font-family: 'Relative Book', sans-serif;
     margin-top: 150px;
 }
 
     footer p {
-        font-family: 'ConfigAlt-Light', sans-serif;
+        display: inline-block;
     }
 
 .white-footer p {
     color: rgba(255, 255, 255);
 }
 
-footer p span {
-    font-family: 'Config-Italic', sans-serif;
+.footer-nav {
+    float: none;
+}
+
+.footer-nav li {
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+.footer-nav li:last-child {
+    float: right;
+    margin-right: 0;
 }
 
 
@@ -246,7 +268,7 @@ footer p span {
     margin-bottom: 40px;
     font-size: 26px;
     line-height: 30px;
-    font-family: 'ConfigAlt-Light', sans-serif;
+    font-family: 'Relative Book', sans-serif;
     font-weight: 300;
     display: block;
     color: #000;
@@ -260,7 +282,7 @@ footer p span {
     margin-bottom: 60px;
 }
 
-.capabilities, .work-index {
+.get-in-touch, .capabilities, .work-index {
     width: 100%;
     font-size: 26px;
     line-height: 30px;
@@ -268,7 +290,28 @@ footer p span {
     list-style: none;
     padding: 0;
     margin: 0;
-    font-family: 'ConfigAlt-Light', sans-serif;
+    font-family: 'Relative Book', sans-serif;
+    color: rgba(0, 0, 0, 0.4);
+    -webkit-transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+}
+
+.get-in-touch li a, .capabilities li, .work-index li {
+    color: rgba(0, 0, 0, 0.4);
+    -webkit-transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+}
+
+.get-in-touch li a:hover, .capabilities li:hover, .work-index li:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+.sticky {
+    top: 20px;
+    position: sticky;
+    position: -webkit-sticky;
 }
 
 .capabilities li::before {
@@ -312,32 +355,26 @@ footer p span {
 /* Single Work Page
 -------------------------------------------------------------------------------------------------- */
 
-.project-info-container {
-    margin-top: 60px;
-    margin-bottom: 40px;
-}
 
 h1.project-title {
-    margin-top: 0;
-}
-
-p.project-intro-extra {
-    font-family: 'ConfigAlt-Light', sans-serif;
-    font-size: 26px;
-    margin-top: 0;
-    line-height: 30px;
-    text-align: left;
-    font-weight: 300;
+    margin-bottom: 60px;
 }
 
 .project-img {
     margin-bottom: 20px;
     width: 100%;
 }
+    .banner {
+        margin-top: 80px;
+    }
 
 .work-detail-container {
     margin-top: 60px;
     margin-bottom: 80px;
+}
+
+.team {
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .work-detail-link {
@@ -362,10 +399,15 @@ p.project-intro-extra {
     right: auto;
 }
 
+.credit {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+}
+
 /* Large Left Link
 -------------------------------------------------------------------------------------------------- */
 .link-title {
-    font-family: 'ConfigAlt-Light', sans-serif;
+    font-family: 'Relative Book', sans-serif;
     font-weight: 100;
     font-size: 26px;
     text-align: left;
@@ -443,7 +485,7 @@ p.project-intro-extra {
 }
 
 .media-title, .media-type {
-    font-family: 'ConfigAlt-Light', sans-serif;
+    font-family: 'Relative Book', sans-serif;
     color: rgba(0, 0, 0, 1);
     text-align: left;
     font-size: 16px;
@@ -457,7 +499,67 @@ p.project-intro-extra {
     }
 
 
+/* Shop Page
+-------------------------------------------------------------------------------------------------- */
+.shop-background {
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+    background-color: #E3E3E3;
+    position: fixed;
+    top: 0;
+}
 
+.limit-width {
+    margin-right: 40px;
+}
+
+.archive-shop-info {
+    visibility: hidden;
+    display: none;
+    margin-top: 60px;
+}
+
+.archive-shop-info p {
+    text-align: center;
+}
+
+.shop-item-block {
+    margin-top: 100px;
+}
+
+.shop-info-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.archive-shop-info-button {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+
+}
+.archive-shop-info-button a {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
+@media only screen and (max-width : 980px) {
+
+    h1 {
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    h1.project-title {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+}
 
 
 @media only screen and (max-width : 767px) {
@@ -476,22 +578,35 @@ p.project-intro-extra {
         line-height: 22px;
     }
 
+    .navigation li {
+        margin-left: 15px;
+    }
+
     .logo-link span {
-        /*display: none;*/
+        display: none;
+        visibility: hidden;
+    }
+
+    .logo-link::after {
+        content: "G";
+    }
+
+    /*.logo-link span {
+        display: none;
         visibility: visible;
         opacity: 1;
-    }
+    }*/
 
     h1 {
         margin-top: 40px;
         margin-bottom: 40px;
-        font-size: 24px;
-        line-height: 28px;
+        font-size: 30px;
+        line-height: 34px;
     }
 
     h2 {
-        font-size: 24px;
-        line-height: 28px;
+        font-size: 18px;
+        line-height: 24px;
         margin-bottom: 0;
     }
 
@@ -518,7 +633,7 @@ p.project-intro-extra {
     }
 
     .wrapper {
-        padding: 0 10px;
+        padding: 0 20px;
     }
 
     header {
@@ -529,8 +644,26 @@ p.project-intro-extra {
         padding-bottom: 10px;
     }
 
+    footer p span, .footer-nav span {
+        display: none;
+        visibility: hidden;
+    }
+
+    .footer-nav {
+        float: right;
+    }
+
+    .footer-nav li {
+        margin: 0;
+        margin-left: 15px;
+    }
+
     .project-img {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .banner {
+        margin-top: 30px;
     }
 
     .project-title {
@@ -541,4 +674,18 @@ p.project-intro-extra {
         visibility: hidden;
         display: none;
     }
+}
+
+@media only screen and (max-width : 420px) {
+
+    h1 br, .project-intro br {
+        display: none;
+        visibility: hidden;
+    }
+
+    h4 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
 }
