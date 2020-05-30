@@ -32,27 +32,17 @@
 <body>
     <header>
         <div class="wrapper">
-            <div class="row">
-                <div class="col-xs-8 col-sm-8">
-                    <a class="logo-link" href="{{ $.Site.BaseURL }}">
-                        M<span>atthew</span> G<span>oodyear</span>
-                    </a>
-                </div>
+            <a class="logo-link" href="{{ $.Site.BaseURL }}">
+                <span>Goodyear Design</span>
+            </a>
 
-                <div class="col-xs-4 col-sm-4">
-                    <ul class="navigation box">
-                        <div class="row">
-                            {{ $currentPage := . }}
-                            {{ range .Site.Menus.main }}
-                            <div class="col-xs-6">
-                                <li class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
-                                    <a href="{{ .URL }}">{{ .Name }}</a>
-                                </li>
-                            </div>
-                            {{ end }}
-                        </div>
-                    </ul>
-                </div>
-            </div>
+            <ul class="navigation">
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                <li class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+                {{ end }}
+            </ul>
         </div>
     </header>
