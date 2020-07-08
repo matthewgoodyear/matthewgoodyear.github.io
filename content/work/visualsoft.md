@@ -1,37 +1,44 @@
 ---
 title: "Visualsoft"
 type: "Brand Identity"
-intro: "Challenged to retain the heritage and equity built up in their V icon, we needed to create a relevant and fresh spin on a familiar logo."
-extra: "Created with the team at Better."
-draft: true
+intro: "An aspirational brand identity for<br> an industry leading e-commerce platform."
+credit: "Created with the team at Better."
 thumb: "/img/visualsoft/visualsoft_thumb.jpg"
-weight: 8
+banner: "/img/visualsoft/visualsoft_ad.jpg"
+draft: true
+weight: 4
 ---
-<div class="row">
-    <div class="col-xs-12">
-        <img src="/img/visualsoft/visualsoft_logos.gif" alt="project-img" class="project-img">
-    </div>
-</div>
-<div class="row center-xs">
-    <div class="col-xs-6 work-detail-container">
+<div class="row work-detail-container">
+    <div class="col-xs-offset-0 col-xs-12 col-sm-offset-1 col-sm-6">
+        <h4>Project Overview</h4>
         <p class="work-detail">
-            BetterBrandBuilder™ is an engaging and inclusive experience designed create visually remarkable brands that are genuinely relevant to you and your audience.
+            Visualsoft is an e-commerce platform that builds, supports & Grows retailers online. We developed a down-to-earth, client centric identity that retains the equity built up in their previous identity. By using the core of logo as a brand devie, we could visually express putting clients at the centre of everything, and make e-commerce feel effortless.
         </p>
-        <p><a href="#" class="work-detail-link">Learn more</a></p>
+        <p><a href="https://better.agency/work/visualsoft/" class="work-detail-link">See more</a></p>
+    </div>
+    <div class="col-xs-offset-0 col-xs-12 col-sm-offset-1 col-sm-3">
+        <h4>Team</h4>
+        <p class="work-detail team">
+            Matthew Goodyear, Lead Designer
+            <br>
+            John Taylor, Creative Director
+            <br>
+            Josh Middleditch, Senior Designer
+        </p>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <img src="/img/visualsoft/visualsoft_ad.jpg" alt="project-img" class="project-img">
+        <img src="/img/visualsoft/visualsoft_cards.jpg" alt="project-img" class="project-img">
     </div>
 </div>
 <div class="row">
     <div class="col-xs-8">
-        <img src="/img/visualsoft/visualsoft_card.jpg" alt="project-img" class="project-img">
+        <img src="/img/visualsoft/visualsoft_photo1.jpg" alt="project-img" class="project-img">
     </div>
 </div>
 <div class="row end-xs">
     <div class="col-xs-8">
-        <img src="/img/visualsoft/visualsoft_spread.jpg" alt="project-img" class="project-img">
+        <img src="/img/visualsoft/visualsoft_photo2.jpg" alt="project-img" class="project-img">
     </div>
 </div>
