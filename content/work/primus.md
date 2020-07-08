@@ -5,7 +5,7 @@ intro: "A first personal experiment into<br>the world of type design."
 thumb: "/img/primus/primus_thumb.jpg"
 banner: "/img/primus/primus_header.gif"
 draft: true
-weight: 5
+weight: 6
 ---
 <!-- <div class="row">
     <div class="col-xs-12">
