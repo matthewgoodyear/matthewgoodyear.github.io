@@ -27,11 +27,11 @@ weight: 9
         </p>
     </div>
 </div>
-<div class="row">
+<!-- <div class="row">
     <div class="col-xs-12">
         <img src="/img/definition/definition_cover.jpg" alt="project-img" class="project-img">
     </div>
-</div>
+</div> -->
 <div class="row">
     <div class="col-xs-12">
         <img src="/img/definition/definition_card1.jpg" alt="project-img" class="project-img">
