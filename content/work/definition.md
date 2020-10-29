@@ -10,7 +10,7 @@ weight: 8
 ---
 <div class="row">
     <div class="col-xs-12">
-        <video alt="project-video" class="project-img project-video banner" autoplay loop>
+        <video alt="project-video" class="project-img project-video banner" autoplay loop muted>
             <source src="/img/definition/definition_video.mp4" type="video/mp4">
         </video>
     </div>
