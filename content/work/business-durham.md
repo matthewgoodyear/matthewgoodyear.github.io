@@ -1,11 +1,13 @@
 ---
 title: "Business Durham"
 type: "Identity System"
-intro: ""
-extra: "Created with the team at Better."
-draft: true
+intro: "Content."
+credit: "Created with the team at Better."
 thumb: "/img/bd/bd_thumb.jpg"
-weight: 9
+thumbvid: ""
+banner: "/img/bd/bd_thumb.jpg"
+draft: true
+weight: 7
 ---
 <div class="row">
     <div class="col-xs-12">

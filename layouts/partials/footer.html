@@ -2,7 +2,7 @@
         <div class="wrapper">
             <div class="row">
                 <div class="col-xs-4 col-sm-8">
-                    <p>&copy; <span>Matthew Goodyear</span> 2020</p>
+                    <p>&copy; <span>Goodyear Design</span> 2020</p>
                 </div>
                 <div class="col-xs-8 col-sm-4">
                     <ul class="navigation footer-nav">
@@ -23,7 +23,25 @@
 
     <script>
         var myIndex = 0;
+        checkSource();
         carousel();
+
+        function checkSource() {
+            var mediaImage = document.querySelectorAll(".media-img");
+            var mediaVid = document.querySelectorAll(".media-vid");
+
+            for (var i = 0; i < mediaImage.length; i++) {
+                if(mediaImage[i].getAttribute('src') === "") {
+                    mediaImage[i].classList.add('hide-thumb');
+                }
+            }
+
+            for (var i = 0; i < mediaVid.length; i++) {
+                if(mediaVid[i].getAttribute('src') === "") {
+                    mediaVid[i].classList.add('hide-thumb');
+                }
+            }
+        }
 
         function carousel() {
             var i;
@@ -51,7 +69,6 @@
                 info.style.display = "flex";
                 infoButton.innerHTML = "- Hide Information";
             }
-
         }
     </script>
 </body>

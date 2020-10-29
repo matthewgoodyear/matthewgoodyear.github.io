@@ -6,5 +6,5 @@ credit: ""
 thumb: "/img/modulr/modulr_thumb.jpg"
 banner: "/img/modulr/modulr_hero.jpg"
 draft: true
-weight: 6
+weight: 9
 ---

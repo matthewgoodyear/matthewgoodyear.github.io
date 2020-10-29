@@ -4,6 +4,7 @@ type: "Brand Identity"
 intro: "Elevating Ian Kinnery's identity to better<br>convey his wealth of knowledge and<br>experience as a business coach."
 credit: "Created with the team at Better."
 thumb: "/img/necs/necs_thumb.jpg"
+thumbvid: ""
 banner: "/img/kinnery/kinnery_hero.jpg"
 draft: true
 weight: 7

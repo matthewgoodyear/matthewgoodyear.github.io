@@ -11,7 +11,8 @@
             <div class="col-sm-4 col-xs-12 media-outer">
                 <a href="{{ .Permalink }}">
                     <div class="media">
-                        <img src="{{ .Params.thumb }}" alt="{{ .Title }}" class="media-img">
+                        <img src="{{ .Params.thumb }}" alt="{{ .Title }}" class="media-img"></img>
+                        <video src="{{ .Params.thumbvid }}" autoplay="yes" loop="yes" alt="{{ .Title }}" class="media-vid"></video>
                     </div>
                     <div class="box">
                         <div class="row">
@@ -23,7 +24,6 @@
                             </div>
                         </div>
                     </div>
-
                 </a>
             </div>
         {{ end }}
@@ -32,7 +32,7 @@
         <div class="row end-sm">
             <div class="col-xs-12 col-sm-4">
                 <a href="/about" class="large-link">
-                    <div class="link-title">Profile & Index</div>
+                    <div class="link-title">Info & contact</div>
                     <div class="dash"></div>
                 </a>
             </div>
