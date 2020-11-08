@@ -7,7 +7,7 @@ thumb: "/img/bd/bd_thumb.jpg"
 thumbvid: ""
 banner: "/img/bd/bd_thumb.jpg"
 draft: true
-weight: 7
+weight: 8
 ---
 <div class="row">
     <div class="col-xs-12">
