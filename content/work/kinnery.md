@@ -4,10 +4,16 @@ type: "Brand Identity"
 intro: "Elevating Ian Kinnery's identity to better<br>convey his wealth of knowledge and<br>experience as a business coach."
 credit: "Created with the team at Better."
 thumb: "/img/kinnery/kinnery_thumb.jpg"
+thumbvid: ""
 banner: "/img/kinnery/kinnery_hero.jpg"
 draft: false
-weight: 1
+weight: 3
 ---
+<div class="row">
+    <div class="col-xs-12">
+        <img src="/img/kinnery/kinnery_hero.jpg" alt="project-img" class="project-img banner">
+    </div>
+</div>
 <div class="row work-detail-container">
     <div class="col-xs-offset-0 col-xs-12 col-sm-offset-1 col-sm-6">
         <h4>Project Overview</h4>

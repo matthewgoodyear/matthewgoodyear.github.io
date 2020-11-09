@@ -2,6 +2,7 @@
 title: "Primus"
 type: "Typeface"
 intro: "A first personal experiment into<br>the world of type design."
+credit: ""
 thumb: "/img/primus/primus_thumb.jpg"
 banner: "/img/primus/primus_header.gif"
 draft: true

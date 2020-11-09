@@ -1,6 +1,6 @@
 ---
 title: "Archive Shop"
-draft: false
+draft: true
 type: "shop"
 menu: "main"
 weight: 3

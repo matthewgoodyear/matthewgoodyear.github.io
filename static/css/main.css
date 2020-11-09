@@ -138,6 +138,12 @@ h4 {
     margin-bottom: 20px;
 }
 
+.flex-space-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
 
 /* Header
@@ -222,7 +228,7 @@ footer {
     padding: 0 0 20px 0;
     color: rgba(0, 0, 0);
     font-family: 'Relative Book', sans-serif;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
     footer p {
@@ -262,7 +268,7 @@ footer {
     margin-bottom: 40px;
 }
 
-.about-paragraph, .about-status, .about-contact {
+.about-paragraph, .about-status, .about-contact, .start-project {
     text-align: left;
     margin: 0;
     margin-bottom: 40px;
@@ -272,10 +278,25 @@ footer {
     font-weight: 300;
     display: block;
     color: #000;
+    -webkit-transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+}
+
+.start-project a:hover {
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .about-paragraph:first-child {
     margin-top: 60px;
+}
+
+.about-paragraph-index {
+    width: 85%;
+}
+
+.start-project {
+    margin-top: 30px;
 }
 
 .about-status, .about-capabilities {
@@ -326,7 +347,7 @@ footer {
     display: inline-block;
 }
 
-.work-index-item img {
+.work-index-item img, .work-index-item video {
     visibility: hidden;
     opacity: 0;
     position: absolute;
@@ -337,7 +358,7 @@ footer {
     z-index: 1000;
 }
 
-.work-index-item:hover img {
+.work-index-item:hover img, .work-index-item:hover video {
     opacity: 1;
     visibility: visible;
     -webkit-transition: opacity .18s ease-in-out;
@@ -424,18 +445,18 @@ h1.project-title {
     position: absolute;
     left: calc(100% - 60px);
     margin-top: 18px;
-    -webkit-transition: all .5s ease-in-out;
-       -moz-transition: all .5s ease-in-out;
-            transition: all .5s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+       -moz-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
 }
 
 .large-link {
     display: flex;
-    margin: 30px 0 -40px 0;
+    margin: 30px 0 40px 0;
 }
 
 .large-link:hover .dash {
-    width: 100px;
+    width: 60px;
 }
 
 
@@ -457,7 +478,7 @@ h1.project-title {
     padding: 0 7px 0 7px;
 }
 
-.media-img {
+.media-img, .media-vid {
     width: 100%;
     opacity: 1;
     -webkit-transition: all .3s;
@@ -466,6 +487,15 @@ h1.project-title {
 }
 .media-outer:hover .media-img {
     transform: scale(1.02);
+}
+
+.media-outer:hover .media-vid {
+    transform: scale(1.02);
+}
+
+.hide-thumb {
+    display: none;
+    visibility: hidden;
 }
 
 .media-outer {
@@ -559,6 +589,10 @@ h1.project-title {
         line-height: 26px;
     }
 
+    .about-paragraph-index {
+        width: 95%;
+    }
+
 }
 
 
@@ -574,7 +608,7 @@ h1.project-title {
     }
 
     p, .navigation, .logo-link {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 22px;
     }
 
@@ -624,12 +658,25 @@ h1.project-title {
     }
 
     footer {
-        margin-top: 100px;
+        margin-top: 60px;
     }
 
-    .capabilities, .work-index, .about-paragraph {
+    .capabilities, .work-index, .about-paragraph, .start-project, .get-in-touch {
         font-size: 24px;
         line-height: 28px;
+    }
+
+    .about-paragraph-index:first-child {
+        margin-top: 20px;
+    }
+
+    .get-in-touch {
+        margin-bottom: 20px;
+    }
+
+    .start-project {
+        margin-top: 0;
+        margin-bottom: 10px;
     }
 
     .wrapper {

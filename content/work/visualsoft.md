@@ -6,13 +6,13 @@ credit: "Created with the team at Better."
 thumb: "/img/visualsoft/visualsoft_thumb.jpg"
 banner: "/img/visualsoft/visualsoft_ad.jpg"
 draft: true
-weight: 4
+weight: 7
 ---
 <div class="row work-detail-container">
     <div class="col-xs-offset-0 col-xs-12 col-sm-offset-1 col-sm-6">
         <h4>Project Overview</h4>
         <p class="work-detail">
-            Visualsoft is an e-commerce platform that builds, supports & Grows retailers online. We developed a down-to-earth, client centric identity that retains the equity built up in their previous identity. By using the core of logo as a brand devie, we could visually express putting clients at the centre of everything, and make e-commerce feel effortless.
+            Visualsoft is an e-commerce platform that builds, supports & Grows retailers online. We developed a down-to-earth, client centric identity that retains the equity built up in their previous identity. By using the core of logo as a brand device, we could visually express putting clients at the centre of everything, and make e-commerce feel effortless.
         </p>
         <p><a href="https://better.agency/work/visualsoft/" class="work-detail-link">See more</a></p>
     </div>

@@ -4,10 +4,16 @@ type: "Brand Identity"
 intro: "A strikingly bold & authoritative identity<br>to give university hospitals a distinctive voice."
 credit: "Created with the team at Better."
 thumb: "/img/uha/uha_thumb.jpg"
+thumbvid: ""
 banner: "/img/uha/uha_logo.jpg"
 draft: false
-weight: 4
+weight: 6
 ---
+<div class="row">
+    <div class="col-xs-12">
+        <img src="/img/uha/uha_logo.jpg" alt="project-img" class="project-img banner">
+    </div>
+</div>
 <div class="row work-detail-container">
     <div class="col-xs-offset-0 col-xs-12 col-sm-offset-1 col-sm-6">
         <h4>Project Overview</h4>
@@ -37,7 +43,7 @@ weight: 4
         <img src="/img/uha/uha_landyards.jpg" alt="project-img" class="project-img">
     </div>
 </div>
-<div class="row">
+<!-- <div class="row">
     <div class="col-xs-12 col-sm-8">
         <img src="/img/uha/uha_people1.jpg" alt="project-img" class="project-img">
     </div>
@@ -46,4 +52,4 @@ weight: 4
     <div class="col-xs-12 col-sm-8">
         <img src="/img/uha/uha_people2.jpg" alt="project-img" class="project-img">
     </div>
-</div>
+</div> -->

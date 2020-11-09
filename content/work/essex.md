@@ -4,10 +4,16 @@ type: "Brand Identity"
 intro: "Brand identity design for a housing redevelopment,<br> set on the site of a former brewery in London."
 credit: "Created with the team at Better."
 thumb: "/img/essex/essex_thumb.jpg"
+thumbvid: ""
 banner: "/img/essex/essex_logo.jpg"
 draft: false
-weight: 3
+weight: 2
 ---
+<div class="row">
+    <div class="col-xs-12">
+        <img src="/img/essex/essex_logo.jpg" alt="project-img" class="project-img banner">
+    </div>
+</div>
 <div class="row work-detail-container">
     <div class="col-xs-offset-0 col-xs-12 col-sm-offset-1 col-sm-6">
         <h4>Project Overview</h4>
@@ -27,7 +33,6 @@ weight: 3
         </p>
     </div>
 </div>
-
 <div class="row">
     <div class="col-xs-12">
         <img src="/img/essex/essex_spread2.jpg" alt="project-img" class="project-img">

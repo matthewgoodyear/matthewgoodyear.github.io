@@ -4,10 +4,16 @@ type: "Crest Design"
 intro: "A modern new crest for a <br> leading grassroots football club."
 credit: "Created with the team at Better."
 thumb: "/img/kader/kader_thumb.jpg"
+thumbvid: ""
 banner: "/img/kader/kader_crest.jpg"
 draft: false
 weight: 4
 ---
+<div class="row">
+    <div class="col-xs-12">
+        <img src="/img/kader/kader_crest.jpg" alt="project-img" class="project-img banner">
+    </div>
+</div>
 <div class="row work-detail-container">
     <div class="col-xs-offset-0 col-xs-12 col-sm-offset-1 col-sm-6">
         <h4>Project Overview</h4>
