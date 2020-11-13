@@ -6,7 +6,7 @@ credit: "Created with the team at Better."
 thumb: "/img/uha/uha_thumb.jpg"
 thumbvid: ""
 banner: "/img/uha/uha_logo.jpg"
-draft: false
+draft: true
 weight: 6
 ---
 <div class="row">

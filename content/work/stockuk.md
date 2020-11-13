@@ -6,12 +6,20 @@ credit: ""
 thumb: "/img/stockuk/stockuk_thumb2.jpg"
 thumbvid: ""
 banner: "/img/stockuk/stockuk_banner.jpg"
-draft: false
+draft: true
 weight: 5
 ---
 <div class="row">
     <div class="col-xs-12">
         <img src="/img/stockuk/stockuk_banner.jpg" alt="project-img" class="project-img banner">
+    </div>
+</div>
+<div class="row work-detail-container">
+    <div class="col-xs-12">
+        <h4>StockUK</h4>
+        <p class="work-detail">
+            A UK based clothing reseller, specialising in providing premium sportswear brands at leading prices. I created a minimal identity and icon style to elevate their online presence.
+        </p>
     </div>
 </div>
 <div class="row">
