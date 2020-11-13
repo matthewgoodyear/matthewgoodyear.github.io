@@ -127,13 +127,14 @@ h3 {
     text-align: left;
     font-weight: 300;
     margin-bottom: 30px;
+    text-decoration: underline;
 }
 
 h4 {
     font-weight: 300;
     font-size: 26px;
     text-align: left;
-    line-height: 42px;
+    line-height: 1.2;
     margin: 0;
     margin-bottom: 20px;
 }
@@ -166,7 +167,7 @@ header {
        position: relative;
    }
    .navigation li {
-       margin-left: 60px;
+       margin-left: 80px;
    }
    .navigation li a {
        color: rgba(0, 0, 0, 1);
@@ -232,6 +233,7 @@ footer {
 }
 
     footer p {
+        font-size: 20px;
         display: inline-block;
     }
 
@@ -273,7 +275,7 @@ footer {
     margin: 0;
     margin-bottom: 40px;
     font-size: 26px;
-    line-height: 30px;
+    line-height: 1.1;
     font-family: 'Relative Book', sans-serif;
     font-weight: 300;
     display: block;
@@ -292,7 +294,8 @@ footer {
 }
 
 .about-paragraph-index {
-    width: 85%;
+    width: 660px;
+    max-width: 85%;
 }
 
 .start-project {
@@ -378,7 +381,12 @@ footer {
 
 
 h1.project-title {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 26px;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: underline;
 }
 
 .project-img {
@@ -386,16 +394,23 @@ h1.project-title {
     width: 100%;
 }
     .banner {
-        margin-top: 80px;
+        margin-top: 20px;
     }
 
 .work-detail-container {
-    margin-top: 60px;
-    margin-bottom: 80px;
+    margin-top: 0px;
+    margin-bottom: 100px;
 }
 
 .team {
     color: rgba(0, 0, 0, 0.4);
+}
+
+.work-detail {
+    width: 100%;
+    max-width: 720px;
+    font-size: 26px;
+    line-height: 1.2;
 }
 
 .work-detail-link {
@@ -421,7 +436,11 @@ h1.project-title {
 }
 
 .credit {
-    text-align: center;
+    font-style: italic;
+    margin-top: 120px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.1;
     color: rgba(0, 0, 0, 0.4);
 }
 
@@ -590,7 +609,7 @@ h1.project-title {
     }
 
     .about-paragraph-index {
-        width: 95%;
+        max-width: 90%;
     }
 
 }
@@ -666,8 +685,17 @@ h1.project-title {
         line-height: 28px;
     }
 
+    .about-paragraph br {
+        display: none;
+        visibility: hidden;
+    }
+
     .about-paragraph-index:first-child {
         margin-top: 20px;
+    }
+
+    .about-paragraph-index {
+        max-width: 100%;
     }
 
     .get-in-touch {
