@@ -29,12 +29,12 @@ weight: 5
     </div>
 </div>
 <div class="row">
-    <div class="col-xs-6">
+    <div class="col-sm-6 col-xs-12">
         <img src="/img/kader/kader_sign.jpg" alt="project-img" class="project-img">
     </div>
 </div>
 <div class="row end-xs">
-    <div class="col-xs-8">
+    <div class="col-sm-8 col-xs-12">
         <img src="/img/kader/kader_badge.jpg" alt="project-img" class="project-img">
     </div>
 </div>
