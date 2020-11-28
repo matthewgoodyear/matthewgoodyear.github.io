@@ -2,32 +2,29 @@
 
 <div>
     <div class="wrapper">
-        <!-- <div class="row">
-            <div class="col-xs-12">
-                <h1 class="project-title">
-                    {{ $.Param "title" }}
-                </h1>
-            </div>
-        </div> -->
-        <!-- <div class="row center-xs">
-            <div class="col-xs-12">
-                <h2 class="project-intro">
-                    {{ $.Param "intro" | safeHTML }}
-                </h2>
-            </div>
-        </div> -->
         <div class="row center-xs">
             <div class="col-xs-12">
                 <p class="credit">
-                    {{ $.Param "credit" | safeHTML }}
+                    {{ $.Param "type" | safeHTML }}
                 </p>
             </div>
         </div>
-        <!-- <div class="row">
+        <div class="row">
             <div class="col-xs-12">
                 <img src="{{ .Params.banner }}" alt="project-img" class="project-img banner">
             </div>
-        </div> -->
+        </div>
+        <div class="row work-detail-container">
+            <div class="col-sm-6 col-xs-12">
+                <h1 class="project-title">{{ $.Param "title" }}</h1>
+                <p class="work-detail">{{ $.Param "intro" | safeHTML }}</p>
+            </div>
+
+            <div class="col-sm-offset-2 col-sm-4 col-xs-offset-0 col-xs-12 date-detail">
+                <h1 class="project-title">{{ $.Param "launched" | safeHTML }}</h1>
+                <p class="work-detail">{{ $.Param "credit" | safeHTML }}</p>
+            </div>
+        </div>
 
         {{ .Content }}
 

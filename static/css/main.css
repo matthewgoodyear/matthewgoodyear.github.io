@@ -632,7 +632,7 @@ h1.project-title {
     }
 
     .credit {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     p, .navigation, .logo-link {
@@ -752,6 +752,10 @@ h1.project-title {
 
     .project-title {
         margin-bottom: 40px;
+    }
+
+    .date-detail {
+        margin-top: 40px;
     }
 
     .work-index-item img {

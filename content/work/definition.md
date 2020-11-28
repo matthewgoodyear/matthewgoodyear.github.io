@@ -1,34 +1,14 @@
 ---
 title: "Definition"
 type: "Brand Identity"
-intro: "Re-branding Acceleris and Limelight after their merger,<br>to bring unity to their new organisation."
-credit: "Created at Better Studio, 2019"
+intro: "An international PR, Communications and Reputation Management Agency based in London, Leeds and Dubai. The aim was to design a neutrally sophisticated and minimal brand that played on the concept of ‘definition’ by using light and shade."
+launched: "December 2018"
+credit: "Role: Creative Design<br>Agency: Better Studio"
 thumb: "/img/definition/definition_thumb.jpg"
-banner: "/img/definition/definition_interior.jpg"
+banner: "/img/definition/definition_logo.jpg"
 draft: false
-weight: 6
+weight: 7
 ---
-<!-- <div class="row">
-    <div class="col-xs-12">
-        <video alt="project-video" class="project-img project-video banner" autoplay loop muted>
-            <source src="/img/definition/definition_video.mp4" type="video/mp4">
-        </video>
-    </div>
-</div> -->
-<div class="row">
-    <div class="col-xs-12">
-        <img src="/img/definition/definition_logo.jpg" alt="project-img" class="project-img banner">
-    </div>
-</div>
-<div class="row work-detail-container">
-    <div class="col-xs-12">
-        <h1 class="project-title">Definition</h1>
-        <p class="work-detail">
-            An international PR, Communications and Reputation Management Agency based in London, Leeds and Dubai. The aim was to design a neutrally sophisticated and minimal brand that played on the concept of ‘definition’ by using light and shade.
-        </p>
-        <!-- <p><a href="https://better.agency/work/definition/" class="work-detail-link">See more</a></p> -->
-    </div>
-</div>
 <div class="row">
     <div class="col-xs-12">
         <img src="/img/definition/definition_card1.jpg" alt="project-img" class="project-img">
