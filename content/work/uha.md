@@ -7,16 +7,25 @@ credit: "Role: Creative Design<br>Agency: Better Studio"
 thumb: "/img/uha/uha_thumb.jpg"
 thumbvid: ""
 banner: "/img/uha/uha_logo.jpg"
+bannermob: "/img/uha/uha_logo-mob.jpg"
 draft: false
 weight: 8
 ---
 <div class="row">
     <div class="col-xs-12">
-        <img src="/img/uha/uha_cards.jpg" alt="project-img" class="project-img">
+        <picture>
+            <source media="(max-width: 767px)" srcset="/img/uha/uha_cards-mob.jpg">
+            <source media="(min-width: 768px)" srcset="/img/uha/uha_cards.jpg">
+            <img src="/img/uha/uha_cards.jpg" alt="project-img" class="project-img">
+        </picture>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12">
+    <picture>
+        <source media="(max-width: 767px)" srcset="/img/uha/uha_landyards-mob.jpg">
+        <source media="(min-width: 768px)" srcset="/img/uha/uha_landyards.jpg">
         <img src="/img/uha/uha_landyards.jpg" alt="project-img" class="project-img">
+    </picture>
     </div>
 </div>

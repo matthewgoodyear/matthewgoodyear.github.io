@@ -7,6 +7,7 @@ credit: "Role: Creative Design<br>Agency: Better Studio"
 thumb: ""
 thumbvid: "/img/teesworks/teesworks_thumb_vid.mp4"
 banner: "/img/teesworks/teesworks_hero_blue.jpg"
+bannermob: "/img/teesworks/teesworks_hero_blue-mob.jpg"
 draft: false
 weight: 4
 ---

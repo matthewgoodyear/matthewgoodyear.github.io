@@ -7,26 +7,43 @@ credit: "Role: Creative Design<br>Agency: Better Studio"
 thumb: "/img/kader/kader_thumb.jpg"
 thumbvid: ""
 banner: "/img/kader/kader_crest.jpg"
+bannermob: "/img/kader/kader_crest-mob.jpg"
 draft: false
 weight: 7
 ---
 <div class="row">
     <div class="col-xs-12">
-        <img src="/img/kader/kader_pitch.jpg" alt="project-img" class="project-img">
+        <picture>
+            <source media="(max-width: 767px)" srcset="/img/kader/kader_pitch-mob.jpg">
+            <source media="(min-width: 768px)" srcset="/img/kader/kader_pitch.jpg">
+            <img src="/img/kader/kader_pitch.jpg" alt="project-img" class="project-img">
+        </picture>
     </div>
 </div>
 <div class="row">
     <div class="col-sm-6 col-xs-12">
-        <img src="/img/kader/kader_sign.jpg" alt="project-img" class="project-img">
+        <picture>
+            <source media="(max-width: 767px)" srcset="/img/kader/kader_sign-mob.jpg">
+            <source media="(min-width: 768px)" srcset="/img/kader/kader_sign.jpg">
+            <img src="/img/kader/kader_sign.jpg" alt="project-img" class="project-img">
+        </picture>
     </div>
 </div>
 <div class="row end-xs">
     <div class="col-sm-8 col-xs-12">
-        <img src="/img/kader/kader_badge.jpg" alt="project-img" class="project-img">
+        <picture>
+            <source media="(max-width: 767px)" srcset="/img/kader/kader_badge-mob.jpg">
+            <source media="(min-width: 768px)" srcset="/img/kader/kader_badge.jpg">
+            <img src="/img/kader/kader_badge.jpg" alt="project-img" class="project-img">
+        </picture>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <img src="/img/kader/kader_bag.jpg" alt="project-img" class="project-img">
+        <picture>
+            <source media="(max-width: 767px)" srcset="/img/kader/kader_bag-mob.jpg">
+            <source media="(min-width: 768px)" srcset="/img/kader/kader_bag.jpg">
+            <img src="/img/kader/bag_pitch.jpg" alt="project-img" class="project-img">
+        </picture>
     </div>
 </div>

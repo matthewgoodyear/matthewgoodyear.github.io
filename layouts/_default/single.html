@@ -11,7 +11,11 @@
         </div>
         <div class="row">
             <div class="col-xs-12">
-                <img src="{{ .Params.banner }}" alt="project-img" class="project-img banner">
+                <picture>
+                    <source media="(max-width: 767px)" srcset="{{ .Params.bannermob }}">
+                    <source media="(min-width: 768px)" srcset="{{ .Params.banner }}">
+                    <img src="{{ .Params.banner }}" alt="project-img" class="project-img banner">
+                </picture>
             </div>
         </div>
         <div class="row work-detail-container">

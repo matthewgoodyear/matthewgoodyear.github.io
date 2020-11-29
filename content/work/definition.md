@@ -6,17 +6,26 @@ launched: "December 2018"
 credit: "Role: Creative Design<br>Agency: Better Studio"
 thumb: "/img/definition/definition_thumb.jpg"
 banner: "/img/definition/definition_logo.jpg"
+banner: "/img/definition/definition_logo-mob.jpg"
 draft: false
 weight: 7
 ---
 <div class="row">
     <div class="col-xs-12">
-        <img src="/img/definition/definition_card1.jpg" alt="project-img" class="project-img">
+        <picture>
+            <source media="(max-width: 767px)" srcset="/img/definition/definition_card1-mob.jpg">
+            <source media="(min-width: 768px)" srcset="/img/definition/definition_card1.jpg">
+            <img src="/img/definition/definition_card1.jpg" alt="project-img" class="project-img">
+        </picture>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12 col-sm-8">
-        <img src="/img/definition/definition_card2.jpg" alt="project-img" class="project-img">
+        <picture>
+            <source media="(max-width: 767px)" srcset="/img/definition/definition_card2-mob.jpg">
+            <source media="(min-width: 768px)" srcset="/img/definition/definition_card2.jpg">
+            <img src="/img/definition/definition_card2.jpg" alt="project-img" class="project-img">
+        </picture>
     </div>
 </div>
 <div class="row work-detail-container">
@@ -28,11 +37,19 @@ weight: 7
 </div>
 <div class="row end-xs">
     <div class="col-xs-12 col-sm-8">
-        <img src="/img/definition/definition_card3.jpg" alt="project-img" class="project-img">
+        <picture>
+            <source media="(max-width: 767px)" srcset="/img/definition/definition_card3-mob.jpg">
+            <source media="(min-width: 768px)" srcset="/img/definition/definition_card3.jpg">
+            <img src="/img/definition/definition_card3.jpg" alt="project-img" class="project-img">
+        </picture>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <img src="/img/definition/definition_stationery.jpg" alt="project-img" class="project-img">
+        <picture>
+            <source media="(max-width: 767px)" srcset="/img/definition/definition_stationery-mob.jpg">
+            <source media="(min-width: 768px)" srcset="/img/definition/definition_stationery.jpg">
+            <img src="/img/definition/definition_stationery.jpg" alt="project-img" class="project-img">
+        </picture>
     </div>
 </div>

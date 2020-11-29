@@ -7,27 +7,44 @@ credit: "Role: Creative Design<br>Agency: Better Studio"
 thumb: "/img/essex/essex_thumb.jpg"
 thumbvid: ""
 banner: "/img/essex/essex_logo.jpg"
+bannermob: "/img/essex/essex_logo-mob.jpg"
 draft: false
 weight: 3
 ---
 <div class="row">
     <div class="col-xs-12">
-        <img src="/img/essex/essex_spread2.jpg" alt="project-img" class="project-img">
+        <picture>
+            <source media="(max-width: 767px)" srcset="/img/essex/essex_spread2-mob.jpg">
+            <source media="(min-width: 768px)" srcset="/img/essex/essex_spread2.jpg">
+            <img src="/img/essex/essex_spread2.jpg" alt="project-img" class="project-img">
+        </picture>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <img src="/img/essex/essex_spread1.jpg" alt="project-img" class="project-img">
+        <picture>
+            <source media="(max-width: 767px)" srcset="/img/essex/essex_spread1-mob.jpg">
+            <source media="(min-width: 768px)" srcset="/img/essex/essex_spread1.jpg">
+            <img src="/img/essex/essex_spread1.jpg" alt="project-img" class="project-img">
+        </picture>
     </div>
 </div>
 <div class="row end-xs">
     <div class="col-xs-12 col-sm-8">
-        <img src="/img/essex/essex_spread3.jpg" alt="project-img" class="project-img">
+        <picture>
+            <source media="(max-width: 767px)" srcset="/img/essex/essex_spread3-mob.jpg">
+            <source media="(min-width: 768px)" srcset="/img/essex/essex_spread3.jpg">
+            <img src="/img/essex/essex_spread3.jpg" alt="project-img" class="project-img">
+        </picture>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12 col-sm-8">
-        <img src="/img/essex/essex_tote.jpg" alt="project-img" class="project-img">
+        <picture>
+            <source media="(max-width: 767px)" srcset="/img/essex/essex_tote-mob.jpg">
+            <source media="(min-width: 768px)" srcset="/img/essex/essex_tote.jpg">
+            <img src="/img/essex/essex_tote.jpg" alt="project-img" class="project-img">
+        </picture>
     </div>
 </div>
 <div class="row work-detail-container">
@@ -39,6 +56,10 @@ weight: 3
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <img src="/img/essex/essex_hoarding.jpg" alt="project-img" class="project-img">
+        <picture>
+            <source media="(max-width: 767px)" srcset="/img/essex/essex_hoarding-mob.jpg">
+            <source media="(min-width: 768px)" srcset="/img/essex/essex_hoarding.jpg">
+            <img src="/img/essex/essex_hoarding.jpg" alt="project-img" class="project-img">
+        </picture>
     </div>
 </div>
