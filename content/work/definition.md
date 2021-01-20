@@ -6,7 +6,7 @@ launched: "December 2018"
 credit: "Role: Creative Design<br>Agency: Better Studio"
 thumb: "/img/definition/definition_thumb.jpg"
 banner: "/img/definition/definition_logo.jpg"
-banner: "/img/definition/definition_logo-mob.jpg"
+bannermob: "/img/definition/definition_logo-mob.jpg"
 draft: false
 weight: 7
 ---
