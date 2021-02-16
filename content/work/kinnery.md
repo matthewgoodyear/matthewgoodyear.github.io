@@ -9,7 +9,7 @@ thumbvid: ""
 banner: "/img/kinnery/kinnery_hero.jpg"
 bannermob: "/img/kinnery/kinnery_hero-mob.jpg"
 draft: false
-weight: 2
+weight: 4
 ---
 <div class="row">
     <div class="col-xs-12">

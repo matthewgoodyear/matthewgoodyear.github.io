@@ -1,14 +1,17 @@
 ---
 title: "Visualsoft"
 type: "Brand Identity"
-intro: "An aspirational brand identity for<br> an industry leading e-commerce platform."
-credit: "Created with the team at Better."
-thumb: "/img/visualsoft/visualsoft_thumb.jpg"
-banner: "/img/visualsoft/visualsoft_ad.jpg"
+intro: "An aspirational brand identity for an industry leading e-commerce platform."
+launched: "August 2018"
+credit: "Role: Creative Design<br>Agency: Better Studio"
+thumb: "/img/visualsoft/visualsoft_thumb2.jpg"
+thumbvid: ""
+banner: "/img/visualsoft/visualsoft_logos.gif"
+bannermob: "/img/visualsoft/visualsoft_logos.gif"
 draft: true
-weight: 7
+weight: 9
 ---
-<div class="row work-detail-container">
+<!-- <div class="row work-detail-container">
     <div class="col-xs-offset-0 col-xs-12 col-sm-offset-1 col-sm-6">
         <h4>Project Overview</h4>
         <p class="work-detail">
@@ -41,4 +44,4 @@ weight: 7
     <div class="col-xs-8">
         <img src="/img/visualsoft/visualsoft_photo2.jpg" alt="project-img" class="project-img">
     </div>
-</div>
+</div> -->

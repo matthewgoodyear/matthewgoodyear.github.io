@@ -70,7 +70,7 @@ body {
 
 p:empty {display:none;}
 
-img {
+img, video {
     width: 100%;
 }
 

@@ -9,7 +9,7 @@ thumbvid: ""
 banner: "/img/essex/essex_logo.jpg"
 bannermob: "/img/essex/essex_logo-mob.jpg"
 draft: false
-weight: 3
+weight: 2
 ---
 <div class="row">
     <div class="col-xs-12">
