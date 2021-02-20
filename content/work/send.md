@@ -13,17 +13,17 @@ weight: 1
 ---
 <div class="row">
     <div class="col-xs-12">
-        <video src="/img/send/send_modular.mp4" alt="project-img" class="project-img" loop autoplay muted>
+        <video src="/img/send/send_modular.mp4" alt="project-img" class="project-img" loop autoplay muted playsinline>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <video src="/img/send/send_ad.mp4" alt="project-img" class="project-img" loop autoplay muted>
+        <video src="/img/send/send_ad.mp4" alt="project-img" class="project-img" loop autoplay muted playsinline>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <video src="/img/send/send_ad_2.mp4" alt="project-img" class="project-img" loop autoplay muted>
+        <video src="/img/send/send_ad_2.mp4" alt="project-img" class="project-img" loop autoplay mute playsinlined>
     </div>
 </div>
 <div class="row">
